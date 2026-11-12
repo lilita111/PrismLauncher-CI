@@ -117,8 +117,20 @@ jobs:
           cmake --preset "$CMAKE_PRESET" -D VCPKG_HOST_TRIPLET="$VCPKG_TRIPLET" -D VCPKG_TARGET_TRIPLET="$VCPKG_TRIPLET"
 
       - name: Run build
+        shell: bash
         run: |
-          cmake --build --preset "$CMAKE_PRESET" --config "$BUILD_TYPE"
+          set -o pipefail
+          cmake --build --preset "$CMAKE_PRESET" --config "$BUILD_TYPE" 2>&1 | tee build_output.log
+
+      - name: Dump build errors
+        if: failure()
+        shell: bash
+        run: |
+          echo "### Build output tail" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 120 build_output.log >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep -n -E "error|Error|fatal|FAILED" build_output.log | head -60 | while IFS= read -r line; do echo "::error::$line"; done
 
       - name: Run tests
         env:
