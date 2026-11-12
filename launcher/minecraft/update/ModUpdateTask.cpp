@@ -106,7 +106,7 @@ void ModUpdateTask::executeTask()
         }
 
         ProgressDialog loadDialog(parent);
-        loadDialog.setSkipButton(true, tr("Abort"));
+        loadDialog.showSkipButton(tr("Abort"));
         loadDialog.execWithTask(tasks);
     }
     model->update();
