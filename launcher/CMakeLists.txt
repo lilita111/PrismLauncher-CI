@@ -544,6 +544,13 @@ set(MODRINTH_SOURCES
     modplatform/modrinth/ModrinthPackExportTask.h
 )
 
+set(GITHUB_SOURCES
+    modplatform/github/GithubAPI.cpp
+    modplatform/github/GithubAPI.h
+    modplatform/github/GithubCheckUpdate.cpp
+    modplatform/github/GithubCheckUpdate.h
+)
+
 set(PACKWIZ_SOURCES
     modplatform/packwiz/Packwiz.h
     modplatform/packwiz/Packwiz.cpp
@@ -756,6 +763,7 @@ set(LOGIC_SOURCES
     ${FTB_SOURCES}
     ${FLAME_SOURCES}
     ${MODRINTH_SOURCES}
+    ${GITHUB_SOURCES}
     ${PACKWIZ_SOURCES}
     ${TECHNIC_SOURCES}
     ${ATLAUNCHER_SOURCES}
@@ -1026,6 +1034,9 @@ SET(LAUNCHER_SOURCES
     ui/pages/modplatform/modrinth/ModrinthResourcePages.cpp
     ui/pages/modplatform/modrinth/ModrinthResourcePages.h
 
+    ui/pages/modplatform/github/GithubResourcePages.cpp
+    ui/pages/modplatform/github/GithubResourcePages.h
+
     # GUI - dialogs
     ui/dialogs/AboutDialog.cpp
     ui/dialogs/AboutDialog.h
@@ -1156,6 +1167,11 @@ SET(LAUNCHER_SOURCES
     ui/instanceview/VisualGroup.cpp
     ui/instanceview/VisualGroup.h
 )
+
+# The GitHub page subclasses ModPage and touches Ui::ResourcePage, so AUTOUIC
+# must also search the directory holding ResourcePage.ui for its uic output.
+set_source_files_properties(ui/pages/modplatform/github/GithubResourcePages.cpp
+    PROPERTIES AUTOUIC_SEARCH_PATHS "${CMAKE_CURRENT_SOURCE_DIR}/ui/pages/modplatform")
 
 if (APPLE)
     set(LAUNCHER_SOURCES
