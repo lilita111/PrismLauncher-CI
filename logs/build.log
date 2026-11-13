@@ -1,36 +1,34 @@
-[1/509] Automatic MOC and UIC for target Launcher_rainbow
+[1/509] Automatic MOC and UIC for target Launcher_murmur2
 [2/509] Automatic MOC and UIC for target qdcss
-[3/509] Automatic MOC and UIC for target BuildConfig
-[4/509] Automatic MOC and UIC for target nbt++
-[5/509] Automatic MOC and UIC for target Launcher_murmur2
-[6/509] Building CXX object libraries\qdcss\CMakeFiles\qdcss.dir\Debug\qdcss_autogen\mocs_compilation_Debug.cpp.obj
-[7/509] Building CXX object libraries\rainbow\CMakeFiles\Launcher_rainbow.dir\Debug\Launcher_rainbow_autogen\mocs_compilation_Debug.cpp.obj
-[8/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\nbt++_autogen\mocs_compilation_Debug.cpp.obj
-[9/509] Automatic MOC and UIC for target LocalPeer
+[3/509] Automatic MOC and UIC for target nbt++
+[4/509] Automatic MOC and UIC for target Launcher_rainbow
+[5/509] Automatic MOC and UIC for target BuildConfig
+[6/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\nbt++_autogen\mocs_compilation_Debug.cpp.obj
+[7/509] Building CXX object libraries\murmur2\CMakeFiles\Launcher_murmur2.dir\Debug\Launcher_murmur2_autogen\mocs_compilation_Debug.cpp.obj
+[8/509] Automatic MOC and UIC for target LocalPeer
+[9/509] Building CXX object libraries\murmur2\CMakeFiles\Launcher_murmur2.dir\Debug\src\MurmurHash2.cpp.obj
 [10/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\endian_str.cpp.obj
 [11/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_compound.cpp.obj
 [12/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag.cpp.obj
 [13/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_string.cpp.obj
-[14/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_list.cpp.obj
+[14/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\value.cpp.obj
 [15/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\value_initializer.cpp.obj
-[16/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\io\stream_reader.cpp.obj
-[17/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\value.cpp.obj
-[18/509] Building CXX object libraries\rainbow\CMakeFiles\Launcher_rainbow.dir\Debug\src\rainbow.cpp.obj
-[19/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\io\stream_writer.cpp.obj
+[16/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_list.cpp.obj
+[17/509] Building CXX object libraries\rainbow\CMakeFiles\Launcher_rainbow.dir\Debug\Launcher_rainbow_autogen\mocs_compilation_Debug.cpp.obj
+[18/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\io\stream_writer.cpp.obj
+[19/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\io\stream_reader.cpp.obj
 [20/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\text\json_formatter.cpp.obj
-[21/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\LocalPeer_autogen\mocs_compilation_Debug.cpp.obj
-[22/509] Building CXX object libraries\murmur2\CMakeFiles\Launcher_murmur2.dir\Debug\Launcher_murmur2_autogen\mocs_compilation_Debug.cpp.obj
-[23/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LockedFile.cpp.obj
-[24/509] Building CXX object libraries\murmur2\CMakeFiles\Launcher_murmur2.dir\Debug\src\MurmurHash2.cpp.obj
-[25/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LocalPeer.cpp.obj
-[26/509] Building CXX object buildconfig\CMakeFiles\BuildConfig.dir\Debug\BuildConfig_autogen\mocs_compilation_Debug.cpp.obj
-[27/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LockedFile_win.cpp.obj
+[21/509] Building CXX object libraries\rainbow\CMakeFiles\Launcher_rainbow.dir\Debug\src\rainbow.cpp.obj
+[22/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LockedFile.cpp.obj
+[23/509] Building CXX object libraries\qdcss\CMakeFiles\qdcss.dir\Debug\qdcss_autogen\mocs_compilation_Debug.cpp.obj
+[24/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\LocalPeer_autogen\mocs_compilation_Debug.cpp.obj
+[25/509] Building CXX object buildconfig\CMakeFiles\BuildConfig.dir\Debug\BuildConfig_autogen\mocs_compilation_Debug.cpp.obj
+[26/509] Linking CXX static library libraries\libnbtplusplus\Debug\nbt++.lib
+[27/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LocalPeer.cpp.obj
 [28/509] Linking CXX static library libraries\rainbow\Debug\Launcher_rainbow.lib
-[29/509] Linking CXX static library libraries\libnbtplusplus\Debug\nbt++.lib
-[30/509] Linking CXX static library libraries\LocalPeer\Debug\LocalPeer.lib
-[31/509] Linking CXX static library libraries\murmur2\Debug\Launcher_murmur2.lib
-[32/509] Building CXX object libraries\qdcss\CMakeFiles\qdcss.dir\Debug\src\qdcss.cpp.obj
-[33/509] Automatic MOC and UIC for target Launcher_logic
+[29/509] Linking CXX static library libraries\murmur2\Debug\Launcher_murmur2.lib
+[30/509] Building CXX object libraries\qdcss\CMakeFiles\qdcss.dir\Debug\src\qdcss.cpp.obj
+[31/509] Automatic MOC and UIC for target Launcher_logic
 FAILED: [code=1] launcher/Launcher_logic_autogen/timestamp_Debug launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp D:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/timestamp_Debug D:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp 
 C:\Windows\system32\cmd.exe /C "cd /D D:\a\PrismLauncher-CI\PrismLauncher-CI\build\launcher && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/timestamp_Debug && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Ninja Multi-Config" gccdepfile D:/a/PrismLauncher-CI/PrismLauncher-CI D:/a/PrismLauncher-CI/PrismLauncher-CI/launcher D:/a/PrismLauncher-CI/PrismLauncher-CI/build D:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher D:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/deps_Debug D:/a/PrismLauncher-CI/PrismLauncher-CI/build/CMakeFiles/d/c8bdb3beefa64f45b71022aeced2bacdf5affb54057535c7f00c565ef1bd311f.d"
 
@@ -42,14 +40,14 @@ but the user interface file "ResourcePage.ui"
 could not be found in the following directories
   "SRC:/launcher/ui/pages/modplatform/github"
 
-[34/509] Linking CXX static library libraries\qdcss\Debug\qdcss.lib
-[35/509] Building Java objects for NewLaunch.jar
+[32/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LockedFile_win.cpp.obj
+[33/509] Linking CXX static library libraries\qdcss\Debug\qdcss.lib
+[34/509] Building Java objects for NewLaunch.jar
 warning: [options] bootstrap class path not set in conjunction with -source 7
 warning: [options] source value 7 is obsolete and will be removed in a future release
 warning: [options] target value 7 is obsolete and will be removed in a future release
 warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
 4 warnings
-[36/509] Automatic MOC and UIC for target filelink_logic
-[37/509] Automatic MOC and UIC for target prism_updater_logic
-[38/509] Building CXX object buildconfig\CMakeFiles\BuildConfig.dir\Debug\BuildConfig.cpp.obj
+[35/509] Automatic MOC and UIC for target prism_updater_logic
+[36/509] Building CXX object buildconfig\CMakeFiles\BuildConfig.dir\Debug\BuildConfig.cpp.obj
 ninja: build stopped: subcommand failed.
