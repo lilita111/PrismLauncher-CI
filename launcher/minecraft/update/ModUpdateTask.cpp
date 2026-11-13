@@ -85,15 +85,15 @@ void ModUpdateTask::executeTask()
 
     if (updateDialog.exec() != 0) {
         auto* tasks = new ConcurrentTask("Download Mods", APPLICATION->settings()->get("NumberOfConcurrentDownloads").toInt());
-        connect(tasks, &Task::failed, this, [this, parent, tasks](const QString& reason) {
+        connect(tasks, &Task::failed, this, [parent, tasks](const QString& reason) {
             CustomMessageBox::selectable(parent, tr("Error"), reason, QMessageBox::Critical)->show();
             tasks->deleteLater();
         });
-        connect(tasks, &Task::aborted, this, [this, parent, tasks]() {
+        connect(tasks, &Task::aborted, this, [parent, tasks]() {
             CustomMessageBox::selectable(parent, tr("Aborted"), tr("Download stopped by user."), QMessageBox::Information)->show();
             tasks->deleteLater();
         });
-        connect(tasks, &Task::succeeded, this, [this, parent, tasks]() {
+        connect(tasks, &Task::succeeded, this, [parent, tasks]() {
             QStringList warnings = tasks->warnings();
             if (warnings.count()) {
                 CustomMessageBox::selectable(parent, tr("Warnings"), warnings.join('\n'), QMessageBox::Warning)->show();
