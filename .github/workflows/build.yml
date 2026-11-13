@@ -133,6 +133,8 @@ jobs:
           grep -n -E "error|Error|fatal|FAILED" build_output.log | head -60 | while IFS= read -r line; do echo "::error::$line"; done
           echo "::error::BUILD_LOG_TAIL"
           tail -n 40 build_output.log | sed 's/^/  /' | while IFS= read -r line; do echo "::error::$line"; done
+          echo "::error::BUILD_LOG_HEAD"
+          head -n 60 build_output.log | sed 's/^/  /' | while IFS= read -r line; do echo "::error::$line"; done
 
       - name: Run tests
         env:
