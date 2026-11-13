@@ -1037,6 +1037,10 @@ SET(LAUNCHER_SOURCES
     ui/pages/modplatform/github/GithubResourcePages.cpp
     ui/pages/modplatform/github/GithubResourcePages.h
 
+    # The GitHub page subclasses ModPage and touches Ui::ResourcePage, so AUTOUIC
+    # must also search the directory holding ResourcePage.ui for its uic output.
+    ui/pages/modplatform/ResourcePage.ui
+
     # GUI - dialogs
     ui/dialogs/AboutDialog.cpp
     ui/dialogs/AboutDialog.h
