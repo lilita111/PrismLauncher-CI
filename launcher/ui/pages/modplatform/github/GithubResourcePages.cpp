@@ -18,6 +18,8 @@
 
 #include "GithubResourcePages.h"
 
+#include "ui_ResourcePage.h"
+
 #include <algorithm>
 #include <utility>
 
