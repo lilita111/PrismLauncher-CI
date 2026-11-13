@@ -1,9 +1,9 @@
-[1/467] Automatic MOC and UIC for target Launcher_rainbow
-[2/467] Automatic MOC and UIC for target nbt++
+[1/467] Automatic MOC and UIC for target nbt++
+[2/467] Automatic MOC and UIC for target Launcher_rainbow
 [3/467] Automatic MOC and UIC for target Launcher_murmur2
 [4/467] Automatic MOC and UIC for target qdcss
-[5/467] Automatic MOC and UIC for target BuildConfig
-[6/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/nbt++_autogen/mocs_compilation_Debug.cpp.o
+[5/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/nbt++_autogen/mocs_compilation_Debug.cpp.o
+[6/467] Automatic MOC and UIC for target BuildConfig
 [7/467] Automatic MOC and UIC for target LocalPeer
 [8/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/endian_str.cpp.o
 [9/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag_compound.cpp.o
@@ -12,8 +12,8 @@
 [12/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag_list.cpp.o
 [13/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/value.cpp.o
 [14/467] Building CXX object libraries/rainbow/CMakeFiles/Launcher_rainbow.dir/Debug/Launcher_rainbow_autogen/mocs_compilation_Debug.cpp.o
-[15/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/io/stream_reader.cpp.o
-[16/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/value_initializer.cpp.o
+[15/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/value_initializer.cpp.o
+[16/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/io/stream_reader.cpp.o
 [17/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/io/stream_writer.cpp.o
 [18/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/text/json_formatter.cpp.o
 [19/467] Building CXX object libraries/rainbow/CMakeFiles/Launcher_rainbow.dir/Debug/src/rainbow.cpp.o
@@ -27,7 +27,14 @@
 [27/467] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LockedFile_unix.cpp.o
 [28/467] Linking CXX static library libraries/rainbow/Debug/libLauncher_rainbow.a
 [29/467] Linking CXX static library libraries/murmur2/Debug/libLauncher_murmur2.a
-[30/467] Automatic MOC and UIC for target Launcher_logic
+[30/467] Building Java objects for NewLaunch.jar
+warning: [options] bootstrap class path not set in conjunction with -source 7
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+4 warnings
+[31/467] Generating CMakeFiles/NewLaunch.dir/java_class_filelist
+[32/467] Automatic MOC and UIC for target Launcher_logic
 FAILED: [code=1] launcher/Launcher_logic_autogen/timestamp_Debug launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/timestamp_Debug /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp 
 cd /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher && /opt/homebrew/bin/cmake -E cmake_autogen /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/AutogenInfo.json Debug && /opt/homebrew/bin/cmake -E touch /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/timestamp_Debug && /opt/homebrew/bin/cmake -E cmake_transform_depfile "Ninja Multi-Config" gccdepfile /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/launcher /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/deps_Debug /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/CMakeFiles/d/a6dc503e6f9a7c5844f424f43fa11c99e25153f48ce9d8d87dc9067a4355ce4e.d
 
@@ -39,13 +46,8 @@ but the user interface file "ResourcePage.ui"
 could not be found in the following directories
   "SRC:/launcher/ui/pages/modplatform/github"
 
-[31/467] Building Java objects for NewLaunch.jar
-warning: [options] bootstrap class path not set in conjunction with -source 7
-warning: [options] source value 7 is obsolete and will be removed in a future release
-warning: [options] target value 7 is obsolete and will be removed in a future release
-warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-4 warnings
-[32/467] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LocalPeer.cpp.o
-[33/467] Building CXX object buildconfig/CMakeFiles/BuildConfig.dir/Debug/BuildConfig.cpp.o
-[34/467] Building CXX object libraries/qdcss/CMakeFiles/qdcss.dir/Debug/src/qdcss.cpp.o
+[33/467] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LocalPeer.cpp.o
+[34/467] Creating Java archive NewLaunch.jar
+[35/467] Building CXX object buildconfig/CMakeFiles/BuildConfig.dir/Debug/BuildConfig.cpp.o
+[36/467] Building CXX object libraries/qdcss/CMakeFiles/qdcss.dir/Debug/src/qdcss.cpp.o
 ninja: build stopped: subcommand failed.
