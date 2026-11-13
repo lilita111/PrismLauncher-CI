@@ -33,7 +33,7 @@ jobs:
     environment: ${{ inputs.environment || '' }}
 
     permissions:
-      contents: write
+      contents: read
       # Required for Azure Trusted Signing
       id-token: write
       # Required for vcpkg binary cache
@@ -126,25 +126,15 @@ jobs:
         if: failure()
         shell: bash
         run: |
-          grep -n -E "error|Error|fatal|FAILED" build_output.log | head -40 | while IFS= read -r line; do echo "::error::$line"; done
-
-      - name: Push build log
-        if: failure()
-        shell: bash
-        env:
-          LOG_BRANCH: ci-logs-${{ matrix.artifact-name }}
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          git config user.name "ci-logs[bot]"
-          git config user.email "ci-logs[bot]@users.noreply.github.com"
-          git fetch origin "$LOG_BRANCH" 2>/dev/null && git checkout "$LOG_BRANCH" || git checkout --orphan "$LOG_BRANCH"
-          git reset
-          mkdir -p logs
-          tail -n 5000 build_output.log > "logs/build.log"
-          git add "logs/build.log"
-          git commit -m "build log run ${{ github.run_number }} ${{ matrix.artifact-name }}" 2>/dev/null || echo "no changes"
-          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "$LOG_BRANCH"
-          echo "log pushed to $LOG_BRANCH"
+          echo "### Build output tail" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 120 build_output.log >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep -n -E "error|Error|fatal|FAILED" build_output.log | head -60 | while IFS= read -r line; do echo "::error::$line"; done
+          echo "::error::BUILD_LOG_TAIL"
+          tail -n 40 build_output.log | sed 's/^/  /' | while IFS= read -r line; do echo "::error::$line"; done
+          echo "::error::BUILD_LOG_HEAD"
+          head -n 60 build_output.log | sed 's/^/  /' | while IFS= read -r line; do echo "::error::$line"; done
 
       - name: Run tests
         env:
