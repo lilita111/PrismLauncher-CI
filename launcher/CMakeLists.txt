@@ -1037,10 +1037,6 @@ SET(LAUNCHER_SOURCES
     ui/pages/modplatform/github/GithubResourcePages.cpp
     ui/pages/modplatform/github/GithubResourcePages.h
 
-    # The GitHub page subclasses ModPage and touches Ui::ResourcePage, so AUTOUIC
-    # must also search the directory holding ResourcePage.ui for its uic output.
-    ui/pages/modplatform/ResourcePage.ui
-
     # GUI - dialogs
     ui/dialogs/AboutDialog.cpp
     ui/dialogs/AboutDialog.h
@@ -1171,6 +1167,11 @@ SET(LAUNCHER_SOURCES
     ui/instanceview/VisualGroup.cpp
     ui/instanceview/VisualGroup.h
 )
+
+# The GitHub page subclasses ModPage and touches Ui::ResourcePage, so AUTOUIC
+# must also search the directory holding ResourcePage.ui for its uic output.
+set_source_files_properties(ui/pages/modplatform/github/GithubResourcePages.cpp
+    PROPERTIES AUTOUIC_SEARCH_PATHS "${CMAKE_CURRENT_SOURCE_DIR}/ui/pages/modplatform")
 
 if (APPLE)
     set(LAUNCHER_SOURCES
