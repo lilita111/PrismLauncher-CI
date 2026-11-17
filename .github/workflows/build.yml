@@ -204,3 +204,17 @@ jobs:
           azure-client-id: ${{ secrets.AZURE_CLIENT_ID }}
           azure-tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           azure-subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Publish portable build to ci-latest release
+        if: ${{ success() && runner.os == 'Windows' && matrix.msystem != '' }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          ZIP="prism-ci-${{ matrix.artifact-name }}-${{ github.run_number }}-${{ steps.short-version.outputs.version }}.zip"
+          7z a -tzip "$ZIP" ./install-portable/* >/dev/null
+          gh release view ci-latest --repo "${{ github.repository }}" >/dev/null 2>&1 || \
+            gh release create ci-latest --prerelease --title "CI builds (untrusted, unsigned)" --notes "Automated builds from CI runs. Unsigned and unreviewed." --repo "${{ github.repository }}"
+          gh release upload ci-latest "$ZIP" --clobber --repo "${{ github.repository }}"
+          echo "published $ZIP to ci-latest"
