@@ -156,6 +156,7 @@ void OfficialLauncherExportTask::executeTask()
     // dedicated game directory: .minecraft/<sanitized instance name>
     QString safeName = m_instance->name();
     safeName.replace(QRegularExpression("[^A-Za-z0-9._-]+"), "-");
+    safeName.replace(QRegularExpression("^[-.]+|[-.]+$"), "");
     if (safeName.isEmpty())
         safeName = "PrismExport";
     QDir gameDir = mcDir.filePath(safeName);
