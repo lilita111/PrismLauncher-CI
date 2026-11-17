@@ -332,6 +332,7 @@ auto ResourceUpdateDialog::ensureMetadata() -> bool
     QHash<QString, bool> shouldTryOthers;
     QList<Resource*> modrinthTmp;
     QList<Resource*> flameTmp;
+    QList<Resource*> githubTmp;
 
     bool confirmRest = false;
     bool tryOthersRest = false;
@@ -339,13 +340,16 @@ auto ResourceUpdateDialog::ensureMetadata() -> bool
     ModPlatform::ResourceProvider providerRest = ModPlatform::ResourceProvider::MODRINTH;
 
     // adds resource to list based on provider
-    auto addToTmp = [&modrinthTmp, &flameTmp](Resource* resource, ModPlatform::ResourceProvider p) {
+    auto addToTmp = [&modrinthTmp, &flameTmp, &githubTmp](Resource* resource, ModPlatform::ResourceProvider p) {
         switch (p) {
             case ModPlatform::ResourceProvider::MODRINTH:
                 modrinthTmp.push_back(resource);
                 break;
             case ModPlatform::ResourceProvider::FLAME:
                 flameTmp.push_back(resource);
+                break;
+            case ModPlatform::ResourceProvider::GITHUB:
+                githubTmp.push_back(resource);
                 break;
         }
     };
@@ -429,6 +433,21 @@ auto ResourceUpdateDialog::ensureMetadata() -> bool
         }
 
         seq.addTask(flameTask);
+    }
+
+    // prepare task for the GitHub mods. GitHub metadata cannot be generated from a
+    // hash lookup, so this simply reports each resource as failed through the
+    // standard path (which can then fall back to the other providers).
+    if (!githubTmp.empty()) {
+        auto githubTask = makeShared<EnsureMetadataTask>(githubTmp, indexDir2, ModPlatform::ResourceProvider::GITHUB);
+        connect(githubTask.get(), &EnsureMetadataTask::metadataReady, this, [this](Resource* candidate) { onMetadataEnsured(candidate); });
+        connect(githubTask.get(), &EnsureMetadataTask::metadataFailed, this, [this, &shouldTryOthers](Resource* candidate) {
+            onMetadataFailed(candidate, shouldTryOthers.find(candidate->internalId()).value(), ModPlatform::ResourceProvider::GITHUB);
+        });
+        connect(githubTask.get(), &EnsureMetadataTask::failed, this,
+                [this](const QString& reason) { CustomMessageBox::selectable(this, tr("Error"), reason, QMessageBox::Critical)->exec(); });
+
+        seq.addTask(githubTask);
     }
 
     seq.addTask(m_secondTryMetadata);
