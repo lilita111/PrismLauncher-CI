@@ -105,6 +105,7 @@
 #include "ui/dialogs/NewsDialog.h"
 #include "ui/dialogs/ProgressDialog.h"
 #include "ui/dialogs/skins/SkinManageDialog.h"
+#include "minecraft/OfficialLauncherExportTask.h"
 #include "ui/instanceview/InstanceDelegate.h"
 #include "ui/instanceview/InstanceProxyModel.h"
 #include "ui/instanceview/InstanceView.h"
@@ -225,6 +226,8 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainWi
         exportInstanceMenu->addAction(ui->actionExportInstanceZip);
         exportInstanceMenu->addAction(ui->actionExportInstanceMrPack);
         exportInstanceMenu->addAction(ui->actionExportInstanceFlamePack);
+        exportInstanceMenu->addSeparator();
+        exportInstanceMenu->addAction(ui->actionExportInstanceOfficial);
         ui->actionExportInstance->setMenu(exportInstanceMenu);
     }
 
@@ -1596,6 +1599,23 @@ void MainWindow::on_actionExportInstanceFlamePack_triggered()
         }
         ExportPackDialog dlg(m_selectedInstance, this, ModPlatform::ResourceProvider::FLAME);
         dlg.exec();
+    }
+}
+
+void MainWindow::on_actionExportInstanceOfficial_triggered()
+{
+    if (!m_selectedInstance)
+        return;
+
+    auto task = std::make_unique<OfficialLauncherExportTask>(m_selectedInstance);
+    auto* taskPtr = task.get();
+
+    ProgressDialog dlg(this);
+    dlg.setWindowTitle(tr("Export to Official Launcher"));
+    int result = dlg.execWithTask(std::move(task));
+
+    if (result == QDialog::Accepted) {
+        QMessageBox::information(this, tr("Export complete"), taskPtr->summary());
     }
 }
 

@@ -56,6 +56,30 @@ current `develop`:
 - Adaptation commit replaces the removed `ModFolderModel::allMods()` with
   `allResources()` and uses the existing `updateFinished` signal.
 
+### `feature/export-official-launcher`
+
+New feature: export the selected instance as an installation of the **official
+Minecraft Launcher** — useful when Prism is used signed out but the official
+launcher has a signed-in Microsoft account.
+
+- New instance action **Export → Official Minecraft Launcher**
+  (`ui/MainWindow.ui`, `OfficialLauncherExportTask` in
+  `launcher/minecraft/`).
+- Fabric instances: fetches the launcher-ready version profile from
+  `meta.fabricmc.net` and writes `versions/<id>/<id>.json`
+  (exactly what the Fabric installer produces).
+- Vanilla-only instances: no version profile needed; the profile just pins
+  `lastVersionId`.
+- Copies `mods/`, `config/` and `options.txt` into a dedicated game directory
+  (`<.minecraft>/<sanitized instance name>`), so it never pollutes other
+  installations.
+- Registers (or updates, matched by name) a profile in
+  `launcher_profiles.json`; a `launcher_profiles.json.bak-prismexport` backup is
+  written first. Idempotent: re-exporting updates the same profile.
+- Forge / NeoForge / Quilt instances are rejected with a clear error for now.
+- No account, API key or Prism metadata required — works fully offline apart
+  from the one Fabric meta request.
+
 ## Verification status
 
 - **No CI has run yet.** Forks have GitHub Actions disabled by default; the

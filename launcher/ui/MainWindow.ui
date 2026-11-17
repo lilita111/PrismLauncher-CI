@@ -482,6 +482,17 @@
     <string>CurseForge (zip)</string>
    </property>
   </action>
+  <action name="actionExportInstanceOfficial">
+   <property name="icon">
+    <iconset theme="launcher"/>
+   </property>
+   <property name="text">
+    <string>Official Minecraft Launcher</string>
+   </property>
+   <property name="toolTip">
+    <string>Exports the selected instance as an installation in the official Minecraft Launcher, so it can be played without adding an account here. Works great signed out.</string>
+   </property>
+  </action>
   <action name="actionCreateInstanceShortcut">
    <property name="icon">
     <iconset theme="shortcut"/>
