@@ -1,54 +1,250 @@
-[1/509] Automatic MOC and UIC for target Launcher_rainbow
-[2/509] Automatic MOC and UIC for target nbt++
-[3/509] Automatic MOC and UIC for target Launcher_murmur2
-[4/509] Automatic MOC and UIC for target qdcss
-[5/509] Automatic MOC and UIC for target BuildConfig
-[6/509] Building CXX object libraries\rainbow\CMakeFiles\Launcher_rainbow.dir\Debug\Launcher_rainbow_autogen\mocs_compilation_Debug.cpp.obj
-[7/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\nbt++_autogen\mocs_compilation_Debug.cpp.obj
-[8/509] Automatic MOC and UIC for target LocalPeer
-[9/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_string.cpp.obj
-[10/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_compound.cpp.obj
-[11/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\endian_str.cpp.obj
-[12/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag.cpp.obj
-[13/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_list.cpp.obj
-[14/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\value.cpp.obj
-[15/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\io\stream_reader.cpp.obj
-[16/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\value_initializer.cpp.obj
-[17/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\io\stream_writer.cpp.obj
-[18/509] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\text\json_formatter.cpp.obj
-[19/509] Building CXX object libraries\rainbow\CMakeFiles\Launcher_rainbow.dir\Debug\src\rainbow.cpp.obj
-[20/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\LocalPeer_autogen\mocs_compilation_Debug.cpp.obj
-[21/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LockedFile.cpp.obj
-[22/509] Building CXX object libraries\murmur2\CMakeFiles\Launcher_murmur2.dir\Debug\Launcher_murmur2_autogen\mocs_compilation_Debug.cpp.obj
-[23/509] Building CXX object libraries\qdcss\CMakeFiles\qdcss.dir\Debug\qdcss_autogen\mocs_compilation_Debug.cpp.obj
-[24/509] Building CXX object libraries\murmur2\CMakeFiles\Launcher_murmur2.dir\Debug\src\MurmurHash2.cpp.obj
-[25/509] Building CXX object buildconfig\CMakeFiles\BuildConfig.dir\Debug\BuildConfig_autogen\mocs_compilation_Debug.cpp.obj
-[26/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LocalPeer.cpp.obj
-[27/509] Linking CXX static library libraries\libnbtplusplus\Debug\nbt++.lib
-[28/509] Linking CXX static library libraries\rainbow\Debug\Launcher_rainbow.lib
-[29/509] Building CXX object libraries\qdcss\CMakeFiles\qdcss.dir\Debug\src\qdcss.cpp.obj
-[30/509] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LockedFile_win.cpp.obj
-[31/509] Linking CXX static library libraries\murmur2\Debug\Launcher_murmur2.lib
-[32/509] Automatic MOC and UIC for target Launcher_logic
-FAILED: [code=1] launcher/Launcher_logic_autogen/timestamp_Debug launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp C:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/timestamp_Debug C:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp 
-C:\Windows\system32\cmd.exe /C "cd /D C:\a\PrismLauncher-CI\PrismLauncher-CI\build\launcher && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/timestamp_Debug && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Ninja Multi-Config" gccdepfile C:/a/PrismLauncher-CI/PrismLauncher-CI C:/a/PrismLauncher-CI/PrismLauncher-CI/launcher C:/a/PrismLauncher-CI/PrismLauncher-CI/build C:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher C:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/deps_Debug C:/a/PrismLauncher-CI/PrismLauncher-CI/build/CMakeFiles/d/f131a06713023e280111aa76e9f822c61a24d2b8e1a489eeb2f2b55fa677d075.d"
-
-AutoUic error
--------------
-"SRC:/launcher/ui/pages/modplatform/github/GithubResourcePages.cpp"
-includes the uic file "ui_ResourcePage.h",
-but the user interface file "ResourcePage.ui"
-could not be found in the following directories
-  "SRC:/launcher/ui/pages/modplatform/github"
-
-[33/509] Linking CXX static library libraries\qdcss\Debug\qdcss.lib
-[34/509] Linking CXX static library libraries\LocalPeer\Debug\LocalPeer.lib
-[35/509] Building Java objects for NewLaunch.jar
+[1/507] Automatic MOC and UIC for target nbt++
+[2/507] Automatic MOC and UIC for target Launcher_rainbow
+[3/507] Automatic MOC and UIC for target Launcher_murmur2
+[4/507] Automatic MOC and UIC for target qdcss
+[5/507] Automatic MOC and UIC for target BuildConfig
+[6/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\nbt++_autogen\mocs_compilation_Debug.cpp.obj
+[7/507] Automatic MOC and UIC for target LocalPeer
+[8/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\endian_str.cpp.obj
+[9/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_compound.cpp.obj
+[10/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_string.cpp.obj
+[11/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag.cpp.obj
+[12/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\tag_list.cpp.obj
+[13/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\io\stream_writer.cpp.obj
+[14/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\io\stream_reader.cpp.obj
+[15/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\value.cpp.obj
+[16/507] Building CXX object libraries\rainbow\CMakeFiles\Launcher_rainbow.dir\Debug\Launcher_rainbow_autogen\mocs_compilation_Debug.cpp.obj
+[17/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\value_initializer.cpp.obj
+[18/507] Building CXX object libraries\libnbtplusplus\CMakeFiles\nbt++.dir\Debug\src\text\json_formatter.cpp.obj
+[19/507] Building CXX object libraries\rainbow\CMakeFiles\Launcher_rainbow.dir\Debug\src\rainbow.cpp.obj
+[20/507] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\LocalPeer_autogen\mocs_compilation_Debug.cpp.obj
+[21/507] Building CXX object libraries\murmur2\CMakeFiles\Launcher_murmur2.dir\Debug\Launcher_murmur2_autogen\mocs_compilation_Debug.cpp.obj
+[22/507] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LockedFile.cpp.obj
+[23/507] Building CXX object libraries\qdcss\CMakeFiles\qdcss.dir\Debug\qdcss_autogen\mocs_compilation_Debug.cpp.obj
+[24/507] Building CXX object libraries\murmur2\CMakeFiles\Launcher_murmur2.dir\Debug\src\MurmurHash2.cpp.obj
+[25/507] Linking CXX static library libraries\libnbtplusplus\Debug\nbt++.lib
+[26/507] Building CXX object buildconfig\CMakeFiles\BuildConfig.dir\Debug\BuildConfig_autogen\mocs_compilation_Debug.cpp.obj
+[27/507] Linking CXX static library libraries\rainbow\Debug\Launcher_rainbow.lib
+[28/507] Linking CXX static library libraries\murmur2\Debug\Launcher_murmur2.lib
+[29/507] Building Java objects for NewLaunch.jar
 warning: [options] bootstrap class path not set in conjunction with -source 7
 warning: [options] source value 7 is obsolete and will be removed in a future release
 warning: [options] target value 7 is obsolete and will be removed in a future release
 warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
 4 warnings
-[36/509] Automatic MOC and UIC for target prism_updater_logic
-[37/509] Building CXX object buildconfig\CMakeFiles\BuildConfig.dir\Debug\BuildConfig.cpp.obj
+[30/507] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LocalPeer.cpp.obj
+[31/507] Generating CMakeFiles/NewLaunch.dir/java_class_filelist
+[32/507] Automatic MOC and UIC for target filelink_logic
+[33/507] Creating Java archive NewLaunch.jar
+[34/507] Automatic MOC and UIC for target prism_updater_logic
+[35/507] Building CXX object libraries\LocalPeer\CMakeFiles\LocalPeer.dir\Debug\src\LockedFile_win.cpp.obj
+[36/507] Building CXX object buildconfig\CMakeFiles\BuildConfig.dir\Debug\BuildConfig.cpp.obj
+[37/507] Building CXX object libraries\qdcss\CMakeFiles\qdcss.dir\Debug\src\qdcss.cpp.obj
+[38/507] Linking CXX static library libraries\LocalPeer\Debug\LocalPeer.lib
+[39/507] Linking CXX static library buildconfig\Debug\BuildConfig.lib
+[40/507] Linking CXX static library libraries\qdcss\Debug\qdcss.lib
+[41/507] Building Java objects for JavaCheck.jar
+warning: [options] bootstrap class path not set in conjunction with -source 7
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+4 warnings
+[42/507] Automatic MOC and UIC for target PrismLauncher
+[43/507] Building Java objects for NewLaunchLegacy.jar
+warning: [options] bootstrap class path not set in conjunction with -source 7
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+legacy\org\prismlauncher\legacy\LegacyFrame.java:59: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+import java.applet.Applet;
+                  ^
+legacy\net\minecraft\Launcher.java:57: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+import java.applet.Applet;
+                  ^
+legacy\net\minecraft\Launcher.java:58: warning: [removal] AppletStub in java.applet has been deprecated and marked for removal
+import java.applet.AppletStub;
+                  ^
+legacy\org\prismlauncher\legacy\LegacyLauncher.java:63: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+import java.applet.Applet;
+                  ^
+legacy\org\prismlauncher\legacy\LegacyFrame.java:82: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    public LegacyFrame(String title, Applet applet) {
+                                     ^
+legacy\net\minecraft\Launcher.java:73: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public final class Launcher extends Applet implements AppletStub {
+                                    ^
+legacy\net\minecraft\Launcher.java:73: warning: [removal] AppletStub in java.applet has been deprecated and marked for removal
+public final class Launcher extends Applet implements AppletStub {
+                                                      ^
+legacy\net\minecraft\Launcher.java:78: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    private Applet wrappedApplet;
+            ^
+legacy\net\minecraft\Launcher.java:82: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    public Launcher(Applet applet) {
+                    ^
+legacy\net\minecraft\Launcher.java:86: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    public Launcher(Applet applet, URL documentBase) {
+                    ^
+legacy\net\minecraft\Launcher.java:108: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    public void replace(Applet applet) {
+                        ^
+legacy\org\prismlauncher\legacy\LegacyLauncher.java:126: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    private static Applet createAppletClass(String clazz) throws Throwable {
+                   ^
+legacy\org\prismlauncher\legacy\LegacyLauncher.java:130: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+        return (Applet) appletConstructor.invoke();
+                ^
+17 warnings
+[44/507] Automatic MOC and UIC for target PrismLauncher_updater
+[45/507] Automatic MOC and UIC for target PrismLauncher_filelink
+[46/507] Generating CMakeFiles/JavaCheck.dir/java_class_filelist
+[47/507] Generating CMakeFiles/NewLaunchLegacy.dir/java_class_filelist
+[48/507] Automatic MOC and UIC for target LauncherTests
+[49/507] Creating Java archive NewLaunchLegacy.jar
+[50/507] Creating Java archive JavaCheck.jar
+[51/507] Building CXX object launcher\CMakeFiles\filelink_logic.dir\Debug\cmake_pch.cxx.obj
+[52/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\cmake_pch.cxx.obj
+[53/507] Building CXX object launcher\CMakeFiles\filelink_logic.dir\Debug\console\WindowsConsole.cpp.obj
+[54/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\console\WindowsConsole.cpp.obj
+[55/507] Building CXX object launcher\CMakeFiles\filelink_logic.dir\Debug\filelink_logic_autogen\mocs_compilation_Debug.cpp.obj
+[56/507] Building CXX object launcher\CMakeFiles\filelink_logic.dir\Debug\filelink\FileLink.cpp.obj
+[57/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\updater\prismupdater\UpdaterDialogs.cpp.obj
+[58/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\updater\prismupdater\GitHubRelease.cpp.obj
+[59/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\Json.cpp.obj
+[60/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\StringUtils.cpp.obj
+[61/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\DesktopServices.cpp.obj
+[62/507] Building CXX object launcher\CMakeFiles\filelink_logic.dir\Debug\FileSystem.cpp.obj
+[63/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\Markdown.cpp.obj
+[64/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\Version.cpp.obj
+[65/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\prism_updater_logic_autogen\mocs_compilation_Debug.cpp.obj
+[66/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\MMCZip.cpp.obj
+[67/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\updater\prismupdater\PrismUpdater.cpp.obj
+[68/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\archive\ArchiveReader.cpp.obj
+[69/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\archive\ArchiveWriter.cpp.obj
+[70/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\MMCTime.cpp.obj
+[71/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\net\Logging.cpp.obj
+[72/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\net\HttpMetaCache.cpp.obj
+[73/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\net\FileSink.cpp.obj
+[74/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\ui\widgets\SubTaskProgressBar.cpp.obj
+[75/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\FileSystem.cpp.obj
+[76/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\net\Request.cpp.obj
+[77/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\ui\dialogs\ProgressDialog.cpp.obj
+[78/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\tasks\Task.cpp.obj
+[79/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\tasks\ConcurrentTask.cpp.obj
+[80/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\tasks\SequentialTask.cpp.obj
+[81/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\tasks\MultipleOptionsTask.cpp.obj
+[82/507] Building CXX object launcher\CMakeFiles\filelink_logic.dir\Debug\StringUtils.cpp.obj
+[83/507] Building CXX object launcher\CMakeFiles\filelink_logic.dir\Debug\DesktopServices.cpp.obj
+[84/507] Building CXX object launcher\CMakeFiles\prism_updater_logic.dir\Debug\net\NetJob.cpp.obj
+[85/507] Building CXX object launcher\CMakeFiles\PrismLauncher_updater.dir\Debug\PrismLauncher_updater_autogen\mocs_compilation_Debug.cpp.obj
+[86/507] Building CXX object launcher\CMakeFiles\PrismLauncher_filelink.dir\Debug\PrismLauncher_filelink_autogen\mocs_compilation_Debug.cpp.obj
+[87/507] Linking CXX static library launcher\Debug\filelink_logic.lib
+[88/507] Linking CXX static library launcher\Debug\prism_updater_logic.lib
+[89/507] Building CXX object launcher\CMakeFiles\PrismLauncher_updater.dir\Debug\updater\prismupdater\updater_main.cpp.obj
+[90/507] Building CXX object launcher\CMakeFiles\PrismLauncher_filelink.dir\Debug\filelink\filelink_main.cpp.obj
+[91/507] Linking CXX executable Debug\prismlauncher_filelink.exe
+[92/507] Linking CXX executable Debug\prismlauncher_updater.exe
+[93/507] Automatic MOC and UIC for target Launcher_logic
+[94/507] Generating qrc_pe_blue.cpp
+[95/507] Generating qrc_pe_light.cpp
+[96/507] Generating qrc_pe_dark.cpp
+[97/507] Generating qrc_backgrounds.cpp
+[98/507] Generating qrc_pe_colored.cpp
+[99/507] Generating qrc_breeze_dark.cpp
+[100/507] Generating qrc_documents.cpp
+[101/507] Generating qrc_breeze_light.cpp
+[102/507] Generating qrc_flat_white.cpp
+[103/507] Generating qrc_flat.cpp
+[104/507] Generating qrc_shaders.cpp
+[105/507] Generating qrc_multimc.cpp
+[106/507] Generating qrc_prismlauncher.cpp
+[107/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_pe_dark.cpp.obj
+[108/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_pe_light.cpp.obj
+[109/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_pe_colored.cpp.obj
+[110/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_pe_blue.cpp.obj
+[111/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_breeze_dark.cpp.obj
+[112/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_breeze_light.cpp.obj
+[113/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_flat.cpp.obj
+[114/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_flat_white.cpp.obj
+[115/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_documents.cpp.obj
+[116/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_shaders.cpp.obj
+[117/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_prismlauncher.cpp.obj
+[118/507] Building CXX object tests\CMakeFiles\LauncherTests.dir\Debug\LauncherTests_autogen\mocs_compilation_Debug.cpp.obj
+[119/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_backgrounds.cpp.obj
+[120/507] Building CXX object tests\CMakeFiles\LauncherTests.dir\Debug\LauncherTests.cpp.obj
+[121/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\qrc_multimc.cpp.obj
+[122/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\cmake_pch.cxx.obj
+[123/507] Building CXX object tests\CMakeFiles\LauncherTests.dir\Debug\GradleSpecifier_test.cpp.obj
+[124/507] Building CXX object tests\CMakeFiles\LauncherTests.dir\Debug\GZip_test.cpp.obj
+[125/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\BaseVersionList.cpp.obj
+[126/507] Building CXX object tests\CMakeFiles\LauncherTests.dir\Debug\MojangVersionFormat_test.cpp.obj
+[127/507] Building CXX object tests\CMakeFiles\LauncherTests.dir\Debug\FileSystem_test.cpp.obj
+[128/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\InstanceTask.cpp.obj
+[129/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\MessageLevel.cpp.obj
+[130/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\LoggedProcess.cpp.obj
+[131/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\InstanceDirUpdate.cpp.obj
+[132/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\BaseInstance.cpp.obj
+[133/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\MMCZip.cpp.obj
+[134/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\archive\ArchiveWriter.cpp.obj
+[135/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\archive\ArchiveReader.cpp.obj
+[136/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\InstanceList.cpp.obj
+[137/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\InstanceCopyPrefs.cpp.obj
+[138/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\StringUtils.cpp.obj
+[139/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\archive\ExportToZipTask.cpp.obj
+[140/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\archive\ExtractZipTask.cpp.obj
+[141/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\Json.cpp.obj
+[142/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\InstanceCopyTask.cpp.obj
+[143/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\GZip.cpp.obj
+[144/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\Commandline.cpp.obj
+[145/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\InstanceImportTask.cpp.obj
+[146/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\MMCTime.cpp.obj
+[147/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\Version.cpp.obj
+[148/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\Logging.cpp.obj
+[149/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\ResourceDownloadTask.cpp.obj
+[150/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\net\FileSink.cpp.obj
+[151/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\net\HttpMetaCache.cpp.obj
+[152/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\net\Logging.cpp.obj
+[153/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\net\MetaCacheSink.cpp.obj
+[154/507] Building CXX object tests\CMakeFiles\LauncherTests.dir\Debug\Library_test.cpp.obj
+[155/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\FileSystem.cpp.obj
+[156/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\net\PasteUpload.cpp.obj
+[157/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\steps\CheckJava.cpp.obj
+[158/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\steps\LookupServerAddress.cpp.obj
+[159/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\net\NetJob.cpp.obj
+[160/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\steps\TextPrint.cpp.obj
+[161/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\net\Request.cpp.obj
+[162/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\steps\LaunchCommand.cpp.obj
+[163/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\steps\PrintServers.cpp.obj
+[164/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\steps\QuitAfterGameStop.cpp.obj
+[165/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\LogModel.cpp.obj
+[166/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\TaskStepWrapper.cpp.obj
+[167/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\LaunchStep.cpp.obj
+[168/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\Logging.cpp.obj
+[169/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\launch\LaunchTask.cpp.obj
+[170/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\news\NewsEntry.cpp.obj
+[171/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\logs\LogParser.cpp.obj
+[172/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\AuthSession.cpp.obj
+[173/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\AccountData.cpp.obj
+[174/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\AccountList.cpp.obj
+[175/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\MinecraftAccount.cpp.obj
+[176/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\Parsers.cpp.obj
+[177/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\news\NewsChecker.cpp.obj
+[178/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\steps\EntitlementsStep.cpp.obj
+[179/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\steps\GetSkinStep.cpp.obj
+[180/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\AuthFlow.cpp.obj
+[181/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\steps\LauncherLoginStep.cpp.obj
+[182/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\steps\MSAStep.cpp.obj
+[183/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\steps\MinecraftProfileStep.cpp.obj
+[184/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\steps\MSADeviceCodeStep.cpp.obj
+[185/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\Launcher_logic_autogen\mocs_compilation_Debug.cpp.obj
+FAILED: [code=2] launcher/CMakeFiles/Launcher_logic.dir/Debug/Launcher_logic_autogen/mocs_compilation_Debug.cpp.obj 
+sccache "C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.52.37025\bin\Hostarm64\arm64\cl.exe"  /nologo /TP -DCMARK_STATIC_DEFINE -DLAUNCHER_APPLICATION -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_DISABLE_DEPRECATED_UP_TO=0x060800 -DQT_GUI_LIB -DQT_NETWORKAUTH_LIB -DQT_NETWORK_LIB -DQT_NO_CONTEXTLESS_CONNECT -DQT_OPENGL_LIB -DQT_WARN_DEPRECATED_UP_TO=0x060800 -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -DWITH_QTDBUS -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"Debug\" -IC:\a\PrismLauncher-CI\PrismLauncher-CI\build\launcher -IC:\a\PrismLauncher-CI\PrismLauncher-CI\launcher -IC:\a\PrismLauncher-CI\PrismLauncher-CI\build\launcher\Launcher_logic_autogen\include_Debug -IC:\a\PrismLauncher-CI\PrismLauncher-CI\libraries\murmur2 -IC:\a\PrismLauncher-CI\PrismLauncher-CI\libraries\murmur2\src -IC:\a\PrismLauncher-CI\PrismLauncher-CI\libraries\libnbtplusplus\include -IC:\a\PrismLauncher-CI\PrismLauncher-CI\build\libraries\libnbtplusplus -IC:\a\PrismLauncher-CI\PrismLauncher-CI\libraries\qdcss\include -IC:\a\PrismLauncher-CI\PrismLauncher-CI\buildconfig -IC:\a\PrismLauncher-CI\PrismLauncher-CI\libraries\LocalPeer\include -IC:\a\PrismLauncher-CI\PrismLauncher-CI\libraries\rainbow\include -external:IC:\a\PrismLauncher-CI\PrismLauncher-CI\build\vcpkg_installed\arm64-windows\include -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtCore -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\mkspecs\win32-arm64-msvc -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtWidgets -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtGui -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtXml -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtNetwork -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtConcurrent -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtNetworkAuth -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtOpenGL -external:IC:\a\PrismLauncher-CI\Qt\6.11.2\msvc2022_arm64\include\QtDBus -external:W0 /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++23 -MD -Z7 /GS /W4 /permissive- /wd4100 -Zc:__cplusplus -permissive- -utf-8 -DTOML_HEADER_ONLY=0 -WX /YuC:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch.hxx /FpC:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic.dir/Debug//cmake_pch.cxx.pch /FIC:/a/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch.hxx /showIncludes /Folauncher\CMakeFiles\Launcher_logic.dir\Debug\Launcher_logic_autogen\mocs_compilation_Debug.cpp.obj /Fdlauncher\CMakeFiles\Launcher_logic.dir\Debug\Launcher_logic.pdb /FS -c C:\a\PrismLauncher-CI\PrismLauncher-CI\build\launcher\Launcher_logic_autogen\mocs_compilation_Debug.cpp
+C:\a\PrismLauncher-CI\PrismLauncher-CI\build\launcher\Launcher_logic_autogen\include_Debug\S3K6MOW2UJ\../../../../../launcher/minecraft/OfficialLauncherExportTask.h(39): error C2061: syntax error: identifier 'InstancePtr'
+C:\a\PrismLauncher-CI\PrismLauncher-CI\build\launcher\Launcher_logic_autogen\include_Debug\S3K6MOW2UJ\../../../../../launcher/minecraft/OfficialLauncherExportTask.h(52): error C3646: 'm_instance': unknown override specifier
+C:\a\PrismLauncher-CI\PrismLauncher-CI\build\launcher\Launcher_logic_autogen\include_Debug\S3K6MOW2UJ\../../../../../launcher/minecraft/OfficialLauncherExportTask.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[186/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\steps\XboxUserStep.cpp.obj
+[187/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\auth\steps\XboxAuthorizationStep.cpp.obj
+[188/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\update\FoldersTask.cpp.obj
+[189/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\update\AssetUpdateTask.cpp.obj
+[190/507] Building CXX object launcher\CMakeFiles\Launcher_logic.dir\Debug\minecraft\update\LegacyFMLLibrariesTask.cpp.obj
 ninja: build stopped: subcommand failed.
