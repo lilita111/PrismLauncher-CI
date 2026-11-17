@@ -27,6 +27,7 @@
 #include <QJsonObject>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
+#include <QProcess>
 #include <QProcessEnvironment>
 #include <QRegularExpression>
 #include <QUuid>
@@ -177,6 +178,20 @@ void OfficialLauncherExportTask::executeTask()
         }
     };
 
+    // the official launcher rewrites launcher_profiles.json while it is running,
+    // which silently drops profiles added behind its back — warn the user
+    bool officialRunning = false;
+#ifdef Q_OS_WIN
+    {
+        QProcess tasklist;
+        tasklist.start("tasklist", { "/FI", "IMAGENAME eq MinecraftLauncher.exe" });
+        if (tasklist.waitForFinished(5000)) {
+            QString out = QString::fromLocal8Bit(tasklist.readAllStandardOutput());
+            officialRunning = out.contains("MinecraftLauncher.exe") && !out.contains("No tasks are running");
+        }
+    }
+#endif
+
     QString instGameRoot = m_instance->gameRoot();
     QDir modsSrc(instGameRoot + "/mods");
     if (modsSrc.exists())
@@ -264,6 +279,12 @@ void OfficialLauncherExportTask::executeTask()
                       .arg(m_instance->name(), versionId, QDir::toNativeSeparators(gameDir.absolutePath()))
                       .arg(copied.size())
                       .arg(m_instance->name());
+
+    if (officialRunning) {
+        m_summary += "\n\n" + tr("WARNING: the official Minecraft Launcher is currently running. It rewrites its "
+                                 "profile file while open and may drop this installation. Close it and re-run this "
+                                 "export to be safe.");
+    }
 
     emitSucceeded();
 }
