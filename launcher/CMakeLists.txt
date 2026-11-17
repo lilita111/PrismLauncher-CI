@@ -1034,8 +1034,8 @@ SET(LAUNCHER_SOURCES
     ui/pages/modplatform/modrinth/ModrinthResourcePages.cpp
     ui/pages/modplatform/modrinth/ModrinthResourcePages.h
 
-    ui/pages/modplatform/github/GithubResourcePages.cpp
-    ui/pages/modplatform/github/GithubResourcePages.h
+    ui/pages/modplatform/GithubResourcePages.cpp
+    ui/pages/modplatform/GithubResourcePages.h
 
     # GUI - dialogs
     ui/dialogs/AboutDialog.cpp
@@ -1167,11 +1167,6 @@ SET(LAUNCHER_SOURCES
     ui/instanceview/VisualGroup.cpp
     ui/instanceview/VisualGroup.h
 )
-
-# The GitHub page subclasses ModPage and touches Ui::ResourcePage, so AUTOUIC
-# must also search the directory holding ResourcePage.ui for its uic output.
-set_source_files_properties(ui/pages/modplatform/github/GithubResourcePages.cpp
-    PROPERTIES AUTOUIC_SEARCH_PATHS "${CMAKE_CURRENT_SOURCE_DIR}/ui/pages/modplatform")
 
 if (APPLE)
     set(LAUNCHER_SOURCES

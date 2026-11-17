@@ -44,7 +44,7 @@
 #include "ui/pages/modplatform/ResourcePage.h"
 
 #include "ui/pages/modplatform/flame/FlameResourcePages.h"
-#include "ui/pages/modplatform/github/GithubResourcePages.h"
+#include "ui/pages/modplatform/GithubResourcePages.h"
 #include "ui/pages/modplatform/modrinth/ModrinthResourcePages.h"
 
 #include "modplatform/flame/FlameAPI.h"
