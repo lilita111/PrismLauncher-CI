@@ -1,49 +1,49 @@
-[1/467] Automatic MOC and UIC for target nbt++
-[2/467] Automatic MOC and UIC for target Launcher_rainbow
-[3/467] Automatic MOC and UIC for target Launcher_murmur2
-[4/467] Automatic MOC and UIC for target qdcss
-[5/467] Automatic MOC and UIC for target BuildConfig
-[6/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/nbt++_autogen/mocs_compilation_Debug.cpp.o
-[7/467] Automatic MOC and UIC for target LocalPeer
-[8/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/endian_str.cpp.o
-[9/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag_compound.cpp.o
-[10/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag_string.cpp.o
-[11/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag.cpp.o
-[12/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag_list.cpp.o
-[13/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/value.cpp.o
-[14/467] Building CXX object libraries/rainbow/CMakeFiles/Launcher_rainbow.dir/Debug/Launcher_rainbow_autogen/mocs_compilation_Debug.cpp.o
-[15/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/value_initializer.cpp.o
-[16/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/io/stream_reader.cpp.o
-[17/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/io/stream_writer.cpp.o
-[18/467] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/text/json_formatter.cpp.o
-[19/467] Building CXX object libraries/rainbow/CMakeFiles/Launcher_rainbow.dir/Debug/src/rainbow.cpp.o
-[20/467] Building CXX object libraries/murmur2/CMakeFiles/Launcher_murmur2.dir/Debug/Launcher_murmur2_autogen/mocs_compilation_Debug.cpp.o
-[21/467] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/LocalPeer_autogen/mocs_compilation_Debug.cpp.o
-[22/467] Building CXX object libraries/qdcss/CMakeFiles/qdcss.dir/Debug/qdcss_autogen/mocs_compilation_Debug.cpp.o
-[23/467] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LockedFile.cpp.o
-[24/467] Building CXX object libraries/murmur2/CMakeFiles/Launcher_murmur2.dir/Debug/src/MurmurHash2.cpp.o
-[25/467] Building CXX object buildconfig/CMakeFiles/BuildConfig.dir/Debug/BuildConfig_autogen/mocs_compilation_Debug.cpp.o
-[26/467] Linking CXX static library libraries/libnbtplusplus/Debug/libnbt++.a
-[27/467] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LockedFile_unix.cpp.o
-[28/467] Building Java objects for NewLaunch.jar
+[1/465] Automatic MOC and UIC for target nbt++
+[2/465] Automatic MOC and UIC for target Launcher_murmur2
+[3/465] Automatic MOC and UIC for target Launcher_rainbow
+[4/465] Automatic MOC and UIC for target qdcss
+[5/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/nbt++_autogen/mocs_compilation_Debug.cpp.o
+[6/465] Automatic MOC and UIC for target BuildConfig
+[7/465] Automatic MOC and UIC for target LocalPeer
+[8/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/endian_str.cpp.o
+[9/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag_compound.cpp.o
+[10/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag_string.cpp.o
+[11/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag.cpp.o
+[12/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/tag_list.cpp.o
+[13/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/value.cpp.o
+[14/465] Building CXX object libraries/rainbow/CMakeFiles/Launcher_rainbow.dir/Debug/Launcher_rainbow_autogen/mocs_compilation_Debug.cpp.o
+[15/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/value_initializer.cpp.o
+[16/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/io/stream_reader.cpp.o
+[17/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/io/stream_writer.cpp.o
+[18/465] Building CXX object libraries/libnbtplusplus/CMakeFiles/nbt++.dir/Debug/src/text/json_formatter.cpp.o
+[19/465] Building CXX object libraries/rainbow/CMakeFiles/Launcher_rainbow.dir/Debug/src/rainbow.cpp.o
+[20/465] Building CXX object libraries/murmur2/CMakeFiles/Launcher_murmur2.dir/Debug/Launcher_murmur2_autogen/mocs_compilation_Debug.cpp.o
+[21/465] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/LocalPeer_autogen/mocs_compilation_Debug.cpp.o
+[22/465] Building CXX object libraries/qdcss/CMakeFiles/qdcss.dir/Debug/qdcss_autogen/mocs_compilation_Debug.cpp.o
+[23/465] Building CXX object libraries/murmur2/CMakeFiles/Launcher_murmur2.dir/Debug/src/MurmurHash2.cpp.o
+[24/465] Building CXX object buildconfig/CMakeFiles/BuildConfig.dir/Debug/BuildConfig_autogen/mocs_compilation_Debug.cpp.o
+[25/465] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LockedFile.cpp.o
+[26/465] Linking CXX static library libraries/libnbtplusplus/Debug/libnbt++.a
+[27/465] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LockedFile_unix.cpp.o
+[28/465] Building Java objects for NewLaunch.jar
 warning: [options] bootstrap class path not set in conjunction with -source 7
 warning: [options] source value 7 is obsolete and will be removed in a future release
 warning: [options] target value 7 is obsolete and will be removed in a future release
 warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
 4 warnings
-[29/467] Linking CXX static library libraries/murmur2/Debug/libLauncher_murmur2.a
-[30/467] Linking CXX static library libraries/rainbow/Debug/libLauncher_rainbow.a
-[31/467] Generating CMakeFiles/NewLaunch.dir/java_class_filelist
-[32/467] Creating Java archive NewLaunch.jar
-[33/467] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LocalPeer.cpp.o
-[34/467] Linking CXX static library libraries/LocalPeer/Debug/libLocalPeer.a
-[35/467] Building Java objects for JavaCheck.jar
+[29/465] Linking CXX static library libraries/rainbow/Debug/libLauncher_rainbow.a
+[30/465] Linking CXX static library libraries/murmur2/Debug/libLauncher_murmur2.a
+[31/465] Generating CMakeFiles/NewLaunch.dir/java_class_filelist
+[32/465] Creating Java archive NewLaunch.jar
+[33/465] Building CXX object libraries/LocalPeer/CMakeFiles/LocalPeer.dir/Debug/src/LocalPeer.cpp.o
+[34/465] Linking CXX static library libraries/LocalPeer/Debug/libLocalPeer.a
+[35/465] Building Java objects for JavaCheck.jar
 warning: [options] bootstrap class path not set in conjunction with -source 7
 warning: [options] source value 7 is obsolete and will be removed in a future release
 warning: [options] target value 7 is obsolete and will be removed in a future release
 warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
 4 warnings
-[36/467] Building Java objects for NewLaunchLegacy.jar
+[36/465] Building Java objects for NewLaunchLegacy.jar
 warning: [options] bootstrap class path not set in conjunction with -source 7
 warning: [options] source value 7 is obsolete and will be removed in a future release
 warning: [options] target value 7 is obsolete and will be removed in a future release
@@ -88,17 +88,16 @@ legacy/org/prismlauncher/legacy/LegacyLauncher.java:130: warning: [removal] Appl
         return (Applet) appletConstructor.invoke();
                 ^
 17 warnings
-[37/467] Automatic MOC and UIC for target PrismLauncher
-[38/467] Generating CMakeFiles/NewLaunchLegacy.dir/java_class_filelist
-[39/467] Generating CMakeFiles/JavaCheck.dir/java_class_filelist
-[40/467] Building CXX object buildconfig/CMakeFiles/BuildConfig.dir/Debug/BuildConfig.cpp.o
-[41/467] Linking CXX static library buildconfig/Debug/libBuildConfig.a
-[42/467] Creating Java archive NewLaunchLegacy.jar
-[43/467] Creating Java archive JavaCheck.jar
-[44/467] Building CXX object libraries/qdcss/CMakeFiles/qdcss.dir/Debug/src/qdcss.cpp.o
-[45/467] Linking CXX static library libraries/qdcss/Debug/libqdcss.a
-[46/467] Automatic MOC and UIC for target LauncherTests
-[47/467] Compiling asset catalog (/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/program_info/PrismLauncher.icon)
+[37/465] Automatic MOC and UIC for target PrismLauncher
+[38/465] Generating CMakeFiles/NewLaunchLegacy.dir/java_class_filelist
+[39/465] Generating CMakeFiles/JavaCheck.dir/java_class_filelist
+[40/465] Building CXX object buildconfig/CMakeFiles/BuildConfig.dir/Debug/BuildConfig.cpp.o
+[41/465] Linking CXX static library buildconfig/Debug/libBuildConfig.a
+[42/465] Creating Java archive NewLaunchLegacy.jar
+[43/465] Creating Java archive JavaCheck.jar
+[44/465] Building CXX object libraries/qdcss/CMakeFiles/qdcss.dir/Debug/src/qdcss.cpp.o
+[45/465] Linking CXX static library libraries/qdcss/Debug/libqdcss.a
+[46/465] Compiling asset catalog (/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/program_info/PrismLauncher.icon)
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -114,371 +113,73 @@ legacy/org/prismlauncher/legacy/LegacyLauncher.java:130: warning: [removal] Appl
 	</dict>
 </dict>
 </plist>
-[48/467] Automatic MOC and UIC for target Launcher_logic
-[49/467] Generating qrc_pe_dark.cpp
-[50/467] Generating qrc_pe_colored.cpp
-[51/467] Generating qrc_pe_light.cpp
-[52/467] Generating qrc_backgrounds.cpp
-[53/467] Generating qrc_pe_blue.cpp
-[54/467] Generating qrc_breeze_dark.cpp
-[55/467] Generating qrc_breeze_light.cpp
-[56/467] Generating qrc_flat.cpp
-[57/467] Generating qrc_flat_white.cpp
-[58/467] Generating qrc_shaders.cpp
-[59/467] Generating qrc_documents.cpp
-[60/467] Generating qrc_prismlauncher.cpp
-[61/467] Generating qrc_multimc.cpp
-[62/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_backgrounds.cpp.o
-[63/467] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_arm64.objcxx.hxx.pch
-[64/467] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_x86_64.objcxx.hxx.pch
-[65/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_pe_dark.cpp.o
-[66/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_multimc.cpp.o
-[67/467] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/macsandbox/SecurityBookmarkFileAccess.mm.o
-[68/467] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/ThemeManager.mm.o
-[69/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_x86_64.hxx.pch
-[70/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_arm64.hxx.pch
-[71/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_pe_light.cpp.o
-[72/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_pe_blue.cpp.o
-[73/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_pe_colored.cpp.o
-[74/467] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/updater/MacSparkleUpdater.mm.o
-[75/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/BaseVersionList.cpp.o
-[76/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/LoggedProcess.cpp.o
-[77/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceTask.cpp.o
-[78/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/MessageLevel.cpp.o
-[79/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceDirUpdate.cpp.o
-[80/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/BaseInstance.cpp.o
-[81/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceList.cpp.o
-[82/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/MMCZip.cpp.o
-[83/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/archive/ArchiveWriter.cpp.o
-[84/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/archive/ArchiveReader.cpp.o
-[85/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/StringUtils.cpp.o
-[86/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceCopyPrefs.cpp.o
-[87/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/archive/ExportToZipTask.cpp.o
-[88/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/archive/ExtractZipTask.cpp.o
-[89/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Json.cpp.o
-[90/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceCopyTask.cpp.o
-[91/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceImportTask.cpp.o
-[92/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/GZip.cpp.o
-[93/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Commandline.cpp.o
-[94/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ResourceDownloadTask.cpp.o
-[95/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Version.cpp.o
-[96/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Logging.cpp.o
-[97/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/MMCTime.cpp.o
-[98/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/FileSystem.cpp.o
-[99/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/net/Logging.cpp.o
-[100/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/net/FileSink.cpp.o
-[101/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/net/HttpMetaCache.cpp.o
-[102/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/net/MetaCacheSink.cpp.o
-[103/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/net/PasteUpload.cpp.o
-[104/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/steps/CheckJava.cpp.o
-[105/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/net/Request.cpp.o
-[106/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/net/NetJob.cpp.o
-[107/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/steps/LookupServerAddress.cpp.o
-[108/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/steps/TextPrint.cpp.o
-[109/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/steps/LaunchCommand.cpp.o
-[110/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/steps/QuitAfterGameStop.cpp.o
-[111/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/steps/PrintServers.cpp.o
-[112/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/LaunchStep.cpp.o
-[113/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/LogModel.cpp.o
-[114/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/TaskStepWrapper.cpp.o
-[115/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/launch/LaunchTask.cpp.o
-[116/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/logs/LogParser.cpp.o
-[117/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/Logging.cpp.o
-[118/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/news/NewsEntry.cpp.o
-[119/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/AuthSession.cpp.o
-[120/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/AccountData.cpp.o
-[121/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/AccountList.cpp.o
-[122/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/news/NewsChecker.cpp.o
-[123/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/MinecraftAccount.cpp.o
-[124/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/Parsers.cpp.o
-[125/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Launcher_logic_autogen/mocs_compilation_Debug.cpp.o
-[126/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/AuthFlow.cpp.o
-[127/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/steps/EntitlementsStep.cpp.o
-[128/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/steps/GetSkinStep.cpp.o
-[129/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/steps/MinecraftProfileStep.cpp.o
-[130/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/steps/LauncherLoginStep.cpp.o
-[131/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/steps/MSAStep.cpp.o
-[132/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/steps/MSADeviceCodeStep.cpp.o
-[133/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/steps/XboxAuthorizationStep.cpp.o
-[134/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/auth/steps/XboxUserStep.cpp.o
-[135/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/update/FoldersTask.cpp.o
-[136/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/update/AssetUpdateTask.cpp.o
-[137/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/ClaimAccount.cpp.o
-[138/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/CreateGameFolders.cpp.o
-[139/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/update/LegacyFMLLibrariesTask.cpp.o
-[140/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/EnsureAvailableMemory.cpp.o
-[141/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/update/LibrariesTask.cpp.o
-[142/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/ExtractNatives.cpp.o
-[143/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/EnsureOfflineLibraries.cpp.o
-[144/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/LauncherPartLaunch.cpp.o
-[145/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/ModMinecraftJar.cpp.o
-[146/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/MinecraftTarget.cpp.o
-[147/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/PrintInstanceInfo.cpp.o
-[148/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/ScanModFolders.cpp.o
-[149/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/VerifyJavaInstall.cpp.o
-[150/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/ReconstructAssets.cpp.o
-[151/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/LaunchProfile.cpp.o
-[152/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/launch/AutoInstallJava.cpp.o
-[153/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/Component.cpp.o
-[154/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/MinecraftLoadAndCheck.cpp.o
-[155/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/MinecraftInstance.cpp.o
-[156/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/Rule.cpp.o
-[157/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/PackProfile.cpp.o
-[158/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/ParseUtils.cpp.o
-[159/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/ComponentUpdateTask.cpp.o
-[160/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/MojangVersionFormat.cpp.o
-[161/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/OneSixVersionFormat.cpp.o
-[162/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/ShortcutUtils.cpp.o
-[163/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/ProfileUtils.cpp.o
-[164/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/Library.cpp.o
-[165/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/VersionFilterData.cpp.o
-[166/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/VanillaInstanceCreationTask.cpp.o
-[167/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/VersionFile.cpp.o
-[168/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/WorldList.cpp.o
-[169/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/WorldTasks.cpp.o
-[170/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/World.cpp.o
-[171/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/Mod.cpp.o
-[172/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/ModFolderModel.cpp.o
-[173/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/DataPack.cpp.o
-[174/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/DataPackFolderModel.cpp.o
-[175/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/Resource.cpp.o
-[176/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/ResourcePack.cpp.o
-[177/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/ShaderPack.cpp.o
-[178/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/TexturePack.cpp.o
-[179/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/ResourcePackFolderModel.cpp.o
-[180/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/WorldSave.cpp.o
-[181/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/TexturePackFolderModel.cpp.o
-[182/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/ShaderPackFolderModel.cpp.o
-[183/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/ResourceFolderModel.cpp.o
-[184/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/ResourceFolderLoadTask.cpp.o
-[185/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/LocalResourceUpdateTask.cpp.o
-[186/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/LocalDataPackParseTask.cpp.o
-[187/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/LocalTexturePackParseTask.cpp.o
-[188/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/LocalModParseTask.cpp.o
-[189/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/LocalShaderPackParseTask.cpp.o
-[190/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/LocalWorldSaveParseTask.cpp.o
-[191/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/LocalResourceParse.cpp.o
-[192/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/skins/SkinRequests.cpp.o
-[193/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/skins/SkinModel.cpp.o
-[194/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/skins/SkinList.cpp.o
-[195/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tasks/Task.cpp.o
-[196/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/screenshots/ImgurAPI.cpp.o
-[197/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/AssetsUtils.cpp.o
-[198/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tasks/SequentialTask.cpp.o
-[199/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tasks/ConcurrentTask.cpp.o
-[200/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tasks/MultipleOptionsTask.cpp.o
-[201/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/settings/INIFile.cpp.o
-[202/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/settings/INISettingsObject.cpp.o
-[203/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/settings/OverrideSetting.cpp.o
-[204/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/settings/PassthroughSetting.cpp.o
-[205/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/minecraft/mod/tasks/GetModDependenciesTask.cpp.o
-[206/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/settings/Setting.cpp.o
-[207/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/JavaInstall.cpp.o
-[208/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/settings/SettingsObject.cpp.o
-[209/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/JavaChecker.cpp.o
-[210/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/JavaVersion.cpp.o
-[211/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/JavaMetadata.cpp.o
-[212/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/JavaUtils.cpp.o
-[213/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/download/SymlinkTask.cpp.o
-[214/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/JavaInstallList.cpp.o
-[215/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/download/ArchiveDownloadTask.cpp.o
-[216/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/java/download/ManifestDownloadTask.cpp.o
-[217/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/translations/POTranslator.cpp.o
-[218/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tools/BaseExternalTool.cpp.o
-[219/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/java/VersionList.cpp.o
-[220/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/java/InstallJavaDialog.cpp.o
-[221/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tools/BaseProfiler.cpp.o
-[222/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/translations/TranslationsModel.cpp.o
-[223/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tools/JProfiler.cpp.o
-[224/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tools/JVisualVM.cpp.o
-[225/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/tools/GenericProfiler.cpp.o
-[226/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/meta/JsonFormat.cpp.o
-[227/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/meta/BaseEntity.cpp.o
-[228/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/meta/Version.cpp.o
-[229/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/meta/Index.cpp.o
-[230/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/icons/IconUtils.cpp.o
-[231/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/meta/VersionList.cpp.o
-[232/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/ModIndex.cpp.o
-[233/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/ResourceType.cpp.o
-[234/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/flame/FlamePackIndex.cpp.o
-[235/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/ResourceAPI.cpp.o
-[236/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/EnsureMetadataTask.cpp.o
-[237/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/flame/FlameAPI.cpp.o
-[238/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/modrinth/ModrinthAPI.cpp.o
-[239/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/helpers/OverrideUtils.cpp.o
-[240/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/helpers/HashUtils.cpp.o
-[241/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/helpers/ExportToModList.cpp.o
-[242/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/legacy_ftb/PrivatePackManager.cpp.o
-[243/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/legacy_ftb/PackFetchTask.cpp.o
-[244/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/legacy_ftb/PackInstallTask.cpp.o
-[245/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/import_ftb/PackInstallTask.cpp.o
-[246/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/ftb/FTBPackManifest.cpp.o
-[247/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/import_ftb/PackHelpers.cpp.o
-[248/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/flame/PackManifest.cpp.o
-[249/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/ftb/FTBPackInstallTask.cpp.o
-[250/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/flame/FlameModIndex.cpp.o
-[251/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/flame/FileResolvingTask.cpp.o
-[252/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/modrinth/ModrinthPackIndex.cpp.o
-[253/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/flame/FlameCheckUpdate.cpp.o
-[254/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/flame/FlamePackExportTask.cpp.o
-[255/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/flame/FlameInstanceCreationTask.cpp.o
-[256/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/modrinth/ModrinthCheckUpdate.cpp.o
-[257/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/modrinth/ModrinthInstanceCreationTask.cpp.o
-[258/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/modrinth/ModrinthPackExportTask.cpp.o
-[259/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/github/GithubAPI.cpp.o
-[260/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/packwiz/Packwiz.cpp.o
-[261/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/technic/SolderPackManifest.cpp.o
-[262/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/github/GithubCheckUpdate.cpp.o
-[263/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/atlauncher/ATLPackIndex.cpp.o
-[264/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/technic/SingleZipPackInstallTask.cpp.o
-[265/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/technic/TechnicPackProcessor.cpp.o
-[266/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/technic/SolderPackInstallTask.cpp.o
-[267/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/atlauncher/ATLShareCode.cpp.o
-[268/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/atlauncher/ATLPackManifest.cpp.o
-[269/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ApplicationMessage.cpp.o
-[270/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/SysInfo.cpp.o
-[271/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/DataMigrationTask.cpp.o
-[272/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/HardwareInfo.cpp.o
-[273/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/DesktopServices.cpp.o
-[274/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Markdown.cpp.o
-[275/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/KonamiCode.cpp.o
-[276/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/icons/MMCIcon.cpp.o
-[277/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/modplatform/atlauncher/ATLPackInstallTask.cpp.o
-[278/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/logs/AnonymizeLog.cpp.o
-[279/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/icons/IconList.cpp.o
-[280/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/VersionProxyModel.cpp.o
-[281/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Application.cpp.o
-[282/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/ViewLogWindow.cpp.o
-[283/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/ToolTipFilter.cpp.o
-[284/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/MultiDecorationItemDelegate.cpp.o
-[285/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/FileIgnoreProxy.cpp.o
-[286/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/FastFileIconProvider.cpp.o
-[287/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/GuiUtil.cpp.o
-[288/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/setupwizard/SetupWizard.cpp.o
-[289/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/InstanceWindow.cpp.o
-[290/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/setupwizard/JavaWizardPage.cpp.o
-[291/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/setupwizard/LanguageWizardPage.cpp.o
-[292/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/setupwizard/AutoJavaWizardPage.cpp.o
-[293/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/setupwizard/PasteWizardPage.cpp.o
-[294/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/MainWindow.cpp.o
-[295/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/setupwizard/LoginWizardPage.cpp.o
-[296/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/FusionTheme.cpp.o
-[297/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/BrightTheme.cpp.o
-[298/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/DarkTheme.cpp.o
-[299/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/CustomTheme.cpp.o
-[300/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/HintOverrideProxyStyle.cpp.o
-[301/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/IconTheme.cpp.o
-[302/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/SystemTheme.cpp.o
-[303/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/ITheme.cpp.o
-[304/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/CatPack.cpp.o
-[305/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/CatPainter.cpp.o
-[306/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/JavaCommon.cpp.o
-[307/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/ThemeManager.cpp.o
-[308/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/LaunchController.cpp.o
-[309/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/ExternalResourcesPage.cpp.o
-[310/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/ManagedPackPage.cpp.o
-[311/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/VersionPage.cpp.o
-[312/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/DataPackPage.cpp.o
-[313/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/TexturePackPage.cpp.o
-[314/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/NotesPage.cpp.o
-[315/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/ResourcePackPage.cpp.o
-[316/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/LogPage.cpp.o
-[317/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/ShaderPackPage.cpp.o
-[318/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/OtherLogsPage.cpp.o
-[319/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/ModFolderPage.cpp.o
-[320/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/McClient.cpp.o
-[321/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/ScreenshotsPage.cpp.o
-[322/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/ServersPage.cpp.o
-[323/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/McResolver.cpp.o
-[324/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/ServerPingTask.cpp.o
-[325/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/global/AccountListPage.cpp.o
-[326/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/global/JavaPage.cpp.o
-[327/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/global/ExternalToolsPage.cpp.o
-[328/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/global/LanguagePage.cpp.o
-[329/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/global/ProxyPage.cpp.o
-[330/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/global/LauncherPage.cpp.o
-[331/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/global/APIPage.cpp.o
-[332/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/instance/WorldListPage.cpp.o
-[333/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/CustomPage.cpp.o
-[334/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ResourceModel.cpp.o
-[335/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ModModel.cpp.o
-[336/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ModPage.cpp.o
-[337/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ResourcePage.cpp.o
-[338/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ResourcePackPage.cpp.o
-[339/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ResourcePackModel.cpp.o
-[340/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/TexturePackModel.cpp.o
-[341/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/TexturePackPage.cpp.o
-[342/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ShaderPackPage.cpp.o
-[343/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ShaderPackModel.cpp.o
-[344/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp.o
-[345/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/DataPackModel.cpp.o
-[346/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/DataPackPage.cpp.o
-[347/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/atlauncher/AtlListModel.cpp.o
-[348/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ftb/FtbFilterModel.cpp.o
-[349/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.cpp.o
-[350/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/atlauncher/AtlPage.cpp.o
-[351/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/atlauncher/AtlUserInteractionSupportImpl.cpp.o
-[352/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ftb/FtbListModel.cpp.o
-[353/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ftb/FtbPage.cpp.o
-[354/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/legacy_ftb/ListModel.cpp.o
-[355/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/legacy_ftb/Page.cpp.o
-[356/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/import_ftb/ImportFTBPage.cpp.o
-[357/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/import_ftb/ListModel.cpp.o
-[358/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/flame/FlameModel.cpp.o
-[359/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/flame/FlameResourceModels.cpp.o
-[360/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/flame/FlamePage.cpp.o
-[361/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/flame/FlameResourcePages.cpp.o
-[362/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/modrinth/ModrinthPage.cpp.o
-[363/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/technic/TechnicModel.cpp.o
-[364/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/OptionalModDialog.cpp.o
-[365/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/modrinth/ModrinthModel.cpp.o
-[366/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/technic/TechnicPage.cpp.o
-[367/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/ImportPage.cpp.o
-[368/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ProfileSelectDialog.cpp.o
-[369/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ProfileSetupDialog.cpp.o
-[370/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/AboutDialog.cpp.o
-[371/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/CopyInstanceDialog.cpp.o
-[372/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/modrinth/ModrinthResourcePages.cpp.o
-[373/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/CustomMessageBox.cpp.o
-[374/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pages/modplatform/GithubResourcePages.cpp.o
-[375/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/CreateShortcutDialog.cpp.o
-[376/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ExportToModListDialog.cpp.o
-[377/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ExportInstanceDialog.cpp.o
-[378/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/IconPickerDialog.cpp.o
-[379/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ImportResourceDialog.cpp.o
-[380/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/NetworkJobFailedDialog.cpp.o
-[381/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/MSALoginDialog.cpp.o
-[382/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ExportPackDialog.cpp.o
-[383/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/NewsDialog.cpp.o
-[384/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/pagedialog/PageDialog.cpp.o
-[385/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/NewComponentDialog.cpp.o
-[386/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ProgressDialog.cpp.o
-[387/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/VersionSelectDialog.cpp.o
-[388/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ReviewMessageBox.cpp.o
-[389/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ScrollMessageBox.cpp.o
-[390/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/NewInstanceDialog.cpp.o
-[391/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ChooseProviderDialog.cpp.o
-[392/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/BlockedModsDialog.cpp.o
-[393/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ChooseOfflineNameDialog.cpp.o
-[394/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ResourceUpdateDialog.cpp.o
-FAILED: [code=1] launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ResourceUpdateDialog.cpp.o 
-sccache /usr/bin/c++ -DCMARK_STATIC_DEFINE -DLAUNCHER_APPLICATION -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_DISABLE_DEPRECATED_UP_TO=0x060800 -DQT_GUI_LIB -DQT_NETWORKAUTH_LIB -DQT_NETWORK_LIB -DQT_NO_CONTEXTLESS_CONNECT -DQT_OPENGL_LIB -DQT_WARN_DEPRECATED_UP_TO=0x060800 -DQT_WIDGETS_LIB -DQT_XML_LIB -DSPARKLE_ENABLED -DWITH_QTDBUS -DCMAKE_INTDIR=\"Debug\" -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/launcher -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/include_Debug -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/murmur2 -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/murmur2/src -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/libnbtplusplus/include -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/libraries/libnbtplusplus -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/qdcss/include -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/buildconfig -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/LocalPeer/include -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/rainbow/include -F/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/frameworks/Sparkle -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtCore.framework/Headers -iframework /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/mkspecs/macx-clang -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/include -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtGui.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/vcpkg_installed/universal-osx/debug/lib/pkgconfig/../../../include -isystem /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/vcpkg_installed/universal-osx/include -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtXml.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtNetwork.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtConcurrent.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtNetworkAuth.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtOpenGL.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtDBus.framework/Headers -g -std=gnu++23 -arch x86_64 -arch arm64 -mmacosx-version-min=13 -fstack-protector-strong --param=ssp-buffer-size=4 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -DTOML_HEADER_ONLY=0 -Werror -Winvalid-pch -Xarch_x86_64 -include/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_x86_64.hxx -Xarch_arm64 -include/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_arm64.hxx -MD -MT launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ResourceUpdateDialog.cpp.o -MF launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ResourceUpdateDialog.cpp.o.d -o launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ResourceUpdateDialog.cpp.o -c /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/launcher/ui/dialogs/ResourceUpdateDialog.cpp
-/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/launcher/ui/dialogs/ResourceUpdateDialog.cpp:343:17: error: enumeration value 'GITHUB' not handled in switch [-Werror,-Wswitch]
-  343 |         switch (p) {
-      |                 ^
-/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/launcher/ui/dialogs/ResourceUpdateDialog.cpp:343:17: note: add missing switch cases
-  343 |         switch (p) {
-      |                 ^
-  344 |             case ModPlatform::ResourceProvider::MODRINTH:
-  345 |                 modrinthTmp.push_back(resource);
-  346 |                 break;
-  347 |             case ModPlatform::ResourceProvider::FLAME:
-  348 |                 flameTmp.push_back(resource);
-  349 |                 break;
-  350 |         }
-1 error generated.
-[395/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/UntrustedModsDialog.cpp.o
-[396/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/ResourceDownloadDialog.cpp.o
-[397/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/InstallLoaderDialog.cpp.o
-[398/467] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/dialogs/skins/SkinManageDialog.cpp.o
+[47/465] Automatic MOC and UIC for target LauncherTests
+[48/465] Automatic MOC and UIC for target Launcher_logic
+[49/465] Generating qrc_pe_colored.cpp
+[50/465] Generating qrc_pe_dark.cpp
+[51/465] Generating qrc_pe_light.cpp
+[52/465] Generating qrc_pe_blue.cpp
+[53/465] Generating qrc_breeze_dark.cpp
+[54/465] Generating qrc_breeze_light.cpp
+[55/465] Generating qrc_flat_white.cpp
+[56/465] Generating qrc_backgrounds.cpp
+[57/465] Generating qrc_flat.cpp
+[58/465] Generating qrc_documents.cpp
+[59/465] Generating qrc_shaders.cpp
+[60/465] Generating qrc_prismlauncher.cpp
+[61/465] Generating qrc_multimc.cpp
+[62/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_backgrounds.cpp.o
+[63/465] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_arm64.objcxx.hxx.pch
+[64/465] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_x86_64.objcxx.hxx.pch
+[65/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_pe_dark.cpp.o
+[66/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_multimc.cpp.o
+[67/465] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ui/themes/ThemeManager.mm.o
+[68/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_pe_light.cpp.o
+[69/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_x86_64.hxx.pch
+[70/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_arm64.hxx.pch
+[71/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_pe_colored.cpp.o
+[72/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/qrc_pe_blue.cpp.o
+[73/465] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/updater/MacSparkleUpdater.mm.o
+[74/465] Building OBJCXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/macsandbox/SecurityBookmarkFileAccess.mm.o
+[75/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/BaseVersionList.cpp.o
+[76/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/LoggedProcess.cpp.o
+[77/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/MessageLevel.cpp.o
+[78/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceTask.cpp.o
+[79/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/BaseInstance.cpp.o
+[80/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceDirUpdate.cpp.o
+[81/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/MMCZip.cpp.o
+[82/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceList.cpp.o
+[83/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/archive/ArchiveReader.cpp.o
+[84/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/archive/ArchiveWriter.cpp.o
+[85/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/StringUtils.cpp.o
+[86/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceCopyPrefs.cpp.o
+[87/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/archive/ExportToZipTask.cpp.o
+[88/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/archive/ExtractZipTask.cpp.o
+[89/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Json.cpp.o
+[90/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/Launcher_logic_autogen/mocs_compilation_Debug.cpp.o
+FAILED: [code=1] launcher/CMakeFiles/Launcher_logic.dir/Debug/Launcher_logic_autogen/mocs_compilation_Debug.cpp.o 
+sccache /usr/bin/c++ -DCMARK_STATIC_DEFINE -DLAUNCHER_APPLICATION -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_DISABLE_DEPRECATED_UP_TO=0x060800 -DQT_GUI_LIB -DQT_NETWORKAUTH_LIB -DQT_NETWORK_LIB -DQT_NO_CONTEXTLESS_CONNECT -DQT_OPENGL_LIB -DQT_WARN_DEPRECATED_UP_TO=0x060800 -DQT_WIDGETS_LIB -DQT_XML_LIB -DSPARKLE_ENABLED -DWITH_QTDBUS -DCMAKE_INTDIR=\"Debug\" -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/launcher -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/include_Debug -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/murmur2 -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/murmur2/src -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/libnbtplusplus/include -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/libraries/libnbtplusplus -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/qdcss/include -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/buildconfig -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/LocalPeer/include -I/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/libraries/rainbow/include -F/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/frameworks/Sparkle -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtCore.framework/Headers -iframework /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/mkspecs/macx-clang -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/include -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtGui.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/vcpkg_installed/universal-osx/debug/lib/pkgconfig/../../../include -isystem /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/vcpkg_installed/universal-osx/include -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtXml.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtNetwork.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtConcurrent.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtNetworkAuth.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtOpenGL.framework/Headers -isystem /Users/runner/work/PrismLauncher-CI/Qt/6.11.2/macos/lib/QtDBus.framework/Headers -g -std=gnu++23 -arch x86_64 -arch arm64 -mmacosx-version-min=13 -fstack-protector-strong --param=ssp-buffer-size=4 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -DTOML_HEADER_ONLY=0 -Werror -Winvalid-pch -Xarch_x86_64 -include/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_x86_64.hxx -Xarch_arm64 -include/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/CMakeFiles/Launcher_logic.dir/Debug/cmake_pch_arm64.hxx -MD -MT launcher/CMakeFiles/Launcher_logic.dir/Debug/Launcher_logic_autogen/mocs_compilation_Debug.cpp.o -MF launcher/CMakeFiles/Launcher_logic.dir/Debug/Launcher_logic_autogen/mocs_compilation_Debug.cpp.o.d -o launcher/CMakeFiles/Launcher_logic.dir/Debug/Launcher_logic_autogen/mocs_compilation_Debug.cpp.o -c /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp
+In file included from /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp:48:
+In file included from /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/include_Debug/S3K6MOW2UJ/moc_OfficialLauncherExportTask.cpp:9:
+/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/include_Debug/S3K6MOW2UJ/../../../../../launcher/minecraft/OfficialLauncherExportTask.h:39:32: error: unknown type name 'InstancePtr'; did you mean 'InstanceId'?
+   39 |     OfficialLauncherExportTask(InstancePtr instance, QString minecraftDir = QString(), QObject* parent = nullptr);
+      |                                ^~~~~~~~~~~
+      |                                InstanceId
+/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/include_Debug/EWIEGA46WW/../../../../../launcher/InstanceList.h:52:7: note: 'InstanceId' declared here
+   52 | using InstanceId = QString;
+      |       ^
+In file included from /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp:48:
+In file included from /Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/include_Debug/S3K6MOW2UJ/moc_OfficialLauncherExportTask.cpp:9:
+/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/include_Debug/S3K6MOW2UJ/../../../../../launcher/minecraft/OfficialLauncherExportTask.h:52:5: error: unknown type name 'InstancePtr'; did you mean 'InstanceId'?
+   52 |     InstancePtr m_instance;
+      |     ^~~~~~~~~~~
+      |     InstanceId
+/Users/runner/work/PrismLauncher-CI/PrismLauncher-CI/build/launcher/Launcher_logic_autogen/include_Debug/EWIEGA46WW/../../../../../launcher/InstanceList.h:52:7: note: 'InstanceId' declared here
+   52 | using InstanceId = QString;
+      |       ^
+2 errors generated.
+[91/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceCopyTask.cpp.o
+[92/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/InstanceImportTask.cpp.o
+[93/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/ResourceDownloadTask.cpp.o
+[94/465] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Debug/FileSystem.cpp.o
 ninja: build stopped: subcommand failed.
