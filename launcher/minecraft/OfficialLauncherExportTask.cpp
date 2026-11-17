@@ -32,9 +32,10 @@
 #include <QUuid>
 #include <QUrl>
 
+#include "minecraft/MinecraftInstance.h"
 #include "minecraft/PackProfile.h"
 
-OfficialLauncherExportTask::OfficialLauncherExportTask(InstancePtr instance, QString minecraftDir, QObject* parent)
+OfficialLauncherExportTask::OfficialLauncherExportTask(MinecraftInstance* instance, QString minecraftDir, QObject* parent)
     : Task(parent), m_instance(instance), m_minecraftDir(minecraftDir)
 {}
 

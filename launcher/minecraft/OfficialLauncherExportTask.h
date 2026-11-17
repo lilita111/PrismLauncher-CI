@@ -19,7 +19,8 @@
 #pragma once
 
 #include "tasks/Task.h"
-#include "BaseInstance.h"
+
+class MinecraftInstance;
 
 /**
  * Exports an instance as an installation of the official Minecraft Launcher:
@@ -36,7 +37,7 @@
 class OfficialLauncherExportTask : public Task {
     Q_OBJECT
    public:
-    OfficialLauncherExportTask(InstancePtr instance, QString minecraftDir = QString(), QObject* parent = nullptr);
+    explicit OfficialLauncherExportTask(MinecraftInstance* instance, QString minecraftDir = QString(), QObject* parent = nullptr);
 
     static QString defaultMinecraftDir();
 
@@ -49,7 +50,7 @@ class OfficialLauncherExportTask : public Task {
    private:
     QString fetchVersionJson(const QString& url, bool& ok);
 
-    InstancePtr m_instance;
+    MinecraftInstance* m_instance;
     QString m_minecraftDir;
     QString m_summary;
 };
