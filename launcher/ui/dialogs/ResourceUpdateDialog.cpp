@@ -21,6 +21,7 @@
 
 #include "modplatform/EnsureMetadataTask.h"
 #include "modplatform/flame/FlameCheckUpdate.h"
+#include "modplatform/github/GithubCheckUpdate.h"
 #include "modplatform/modrinth/ModrinthCheckUpdate.h"
 
 #include <QClipboard>
@@ -42,6 +43,9 @@ ModPlatform::ResourceProvider next(ModPlatform::ResourceProvider p)
             return ModPlatform::ResourceProvider::FLAME;
         case ModPlatform::ResourceProvider::FLAME:
             return ModPlatform::ResourceProvider::MODRINTH;
+        case ModPlatform::ResourceProvider::GITHUB:
+            // There is no alternate provider to fall back to for GitHub-sourced mods.
+            return ModPlatform::ResourceProvider::GITHUB;
     }
 
     return ModPlatform::ResourceProvider::FLAME;
@@ -129,6 +133,15 @@ void ResourceUpdateDialog::checkCandidates()
         checkTask.addTask(m_flameCheckTask);
     }
 
+    if (!m_githubToUpdate.empty()) {
+        m_githubCheckTask.reset(new GithubCheckUpdate(m_githubToUpdate, versions, m_loadersList, m_resourceModel, m_releaseTypes));
+        connect(m_githubCheckTask.get(), &CheckUpdateTask::checkFailed, this,
+                [this](Resource* resource, const QString& reason, const QUrl& recoverUrl) {
+                    m_failedCheckUpdate.append({ resource, reason, recoverUrl });
+                });
+        checkTask.addTask(m_githubCheckTask);
+    }
+
     connect(&checkTask, &Task::failed, this,
             [this](const QString& reason) { CustomMessageBox::selectable(this, tr("Error"), reason, QMessageBox::Critical)->exec(); });
 
@@ -176,6 +189,18 @@ void ResourceUpdateDialog::checkCandidates()
             m_tasks.insert(updatable.name, updatable.download);
         }
         selectedVers.append(m_flameCheckTask->getDependencies());
+    }
+
+    // Add found updates for GitHub
+    if (m_githubCheckTask) {
+        auto githubUpdates = m_githubCheckTask->getUpdates();
+        for (auto& updatable : githubUpdates) {
+            qDebug() << QString("Mod %1 has an update available!").arg(updatable.name);
+
+            appendResource(updatable);
+            m_tasks.insert(updatable.name, updatable.download);
+        }
+        selectedVers.append(m_githubCheckTask->getDependencies());
     }
 
     // Report failed update checking
@@ -307,6 +332,7 @@ auto ResourceUpdateDialog::ensureMetadata() -> bool
     QHash<QString, bool> shouldTryOthers;
     QList<Resource*> modrinthTmp;
     QList<Resource*> flameTmp;
+    QList<Resource*> githubTmp;
 
     bool confirmRest = false;
     bool tryOthersRest = false;
@@ -314,13 +340,16 @@ auto ResourceUpdateDialog::ensureMetadata() -> bool
     ModPlatform::ResourceProvider providerRest = ModPlatform::ResourceProvider::MODRINTH;
 
     // adds resource to list based on provider
-    auto addToTmp = [&modrinthTmp, &flameTmp](Resource* resource, ModPlatform::ResourceProvider p) {
+    auto addToTmp = [&modrinthTmp, &flameTmp, &githubTmp](Resource* resource, ModPlatform::ResourceProvider p) {
         switch (p) {
             case ModPlatform::ResourceProvider::MODRINTH:
                 modrinthTmp.push_back(resource);
                 break;
             case ModPlatform::ResourceProvider::FLAME:
                 flameTmp.push_back(resource);
+                break;
+            case ModPlatform::ResourceProvider::GITHUB:
+                githubTmp.push_back(resource);
                 break;
         }
     };
@@ -406,6 +435,21 @@ auto ResourceUpdateDialog::ensureMetadata() -> bool
         seq.addTask(flameTask);
     }
 
+    // prepare task for the GitHub mods. GitHub metadata cannot be generated from a
+    // hash lookup, so this simply reports each resource as failed through the
+    // standard path (which can then fall back to the other providers).
+    if (!githubTmp.empty()) {
+        auto githubTask = makeShared<EnsureMetadataTask>(githubTmp, indexDir2, ModPlatform::ResourceProvider::GITHUB);
+        connect(githubTask.get(), &EnsureMetadataTask::metadataReady, this, [this](Resource* candidate) { onMetadataEnsured(candidate); });
+        connect(githubTask.get(), &EnsureMetadataTask::metadataFailed, this, [this, &shouldTryOthers](Resource* candidate) {
+            onMetadataFailed(candidate, shouldTryOthers.find(candidate->internalId()).value(), ModPlatform::ResourceProvider::GITHUB);
+        });
+        connect(githubTask.get(), &EnsureMetadataTask::failed, this,
+                [this](const QString& reason) { CustomMessageBox::selectable(this, tr("Error"), reason, QMessageBox::Critical)->exec(); });
+
+        seq.addTask(githubTask);
+    }
+
     seq.addTask(m_secondTryMetadata);
 
     // execute all the tasks
@@ -430,6 +474,9 @@ void ResourceUpdateDialog::onMetadataEnsured(Resource* resource)
             break;
         case ModPlatform::ResourceProvider::FLAME:
             m_flameToUpdate.push_back(resource);
+            break;
+        case ModPlatform::ResourceProvider::GITHUB:
+            m_githubToUpdate.push_back(resource);
             break;
     }
 }
