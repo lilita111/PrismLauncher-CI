@@ -100,6 +100,7 @@
 #include "ui/dialogs/ExportInstanceDialog.h"
 #include "ui/dialogs/ExportPackDialog.h"
 #include "ui/dialogs/IconPickerDialog.h"
+#include "ui/dialogs/ModStoreDialog.h"
 #include "ui/dialogs/ImportResourceDialog.h"
 #include "ui/dialogs/NewInstanceDialog.h"
 #include "ui/dialogs/NewsDialog.h"
@@ -1346,6 +1347,12 @@ void MainWindow::on_actionViewInstanceFolder_triggered()
 void MainWindow::on_actionViewCentralModsFolder_triggered()
 {
     DesktopServices::openPath(APPLICATION->settings()->get("CentralModsDir").toString(), true);
+}
+
+void MainWindow::on_actionModStore_triggered()
+{
+    ModStoreDialog dlg(this);
+    dlg.exec();
 }
 
 void MainWindow::on_actionViewSkinsFolder_triggered()
