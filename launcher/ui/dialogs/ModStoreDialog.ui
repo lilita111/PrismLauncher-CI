@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModStoreDialog</class>
+ <widget class="QDialog" name="ModStoreDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Mod Store</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="labelStatus">
+     <property name="text">
+      <string>Store: —</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPlainTextEdit" name="textReport">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Reports from consolidation and garbage collection appear here.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btnDryRun">
+       <property name="text">
+        <string>Dry-Run Folder…</string>
+       </property>
+       <property name="toolTip">
+        <string>Scan a folder of instances and report how much space consolidation would save, without changing anything.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnConsolidate">
+       <property name="text">
+        <string>Consolidate Folder…</string>
+       </property>
+       <property name="toolTip">
+        <string>Move the first copy of every unique mod jar into the store and replace all duplicates with hardlinks.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnGC">
+       <property name="text">
+        <string>Garbage Collect</string>
+       </property>
+       <property name="toolTip">
+        <string>Delete store entries that are no longer referenced by any instance.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnOpenFolder">
+       <property name="text">
+        <string>Open Store Folder</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Close</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>ModStoreDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>575</x>
+     <y>460</y>
+    </hint>
+    <hint type="destlabel">
+     <x>309</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

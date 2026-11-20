@@ -56,6 +56,32 @@ current `develop`:
 - Adaptation commit replaces the removed `ModFolderModel::allMods()` with
   `allResources()` and uses the existing `updateFinished` signal.
 
+### `feature/shared-mod-store`
+
+Cross-instance mod deduplication: identical jars across instances occupy one
+physical copy on disk.
+
+- **Store layout:** `<data>/modstore/<minecraft_version>/<mod_name>/<mod_version>.jar`,
+  organized as requested, plus `index.json` keyed by sha1. When the same bytes
+  appear under different Minecraft versions they still share one physical
+  file (the second path is a hardlink to the first).
+- `ModStore` (`launcher/minecraft/mod/ModStore.*`): content-addressed core —
+  sha1 indexing, readable path scheme, NTFS hardlink creation with automatic
+  copy fallback (cross-volume / non-NTFS), read-only store files, index
+  load/save, MC-version detection from `mmc-pack.json` / `minecraftinstance.json`.
+- `ModStoreConsolidateTask` / `ModStoreGcTask`
+  (`launcher/minecraft/mod/ModStoreTasks.*`): walks a folder of instances and
+  moves the first copy of every unique jar into the store, replacing every
+  original path with a hardlink; GC deletes store entries no longer referenced
+  by any live instance under the registered roots. Both are repeatable and
+  idempotent.
+- UI: **Folders → Mod Store…** (`ui/dialogs/ModStoreDialog.*`) with dry-run,
+  consolidate, garbage collect and store stats.
+- Measured on the owner's library: 90 instances, 10,065 jars, 27.9 GiB, of which
+  9.14 GiB (32.8%) was byte-identical duplicates.
+- Not yet hooked into the download pipeline (future); consolidation covers
+  existing libraries, so new duplicates should be re-consolidated periodically.
+
 ## Verification status
 
 - **No CI has run yet.** Forks have GitHub Actions disabled by default; the

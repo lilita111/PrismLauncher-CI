@@ -279,6 +279,10 @@ set(MINECRAFT_SOURCES
     minecraft/PackProfile.h
     minecraft/ComponentUpdateTask.cpp
     minecraft/ComponentUpdateTask.h
+    minecraft/mod/ModStore.cpp
+    minecraft/mod/ModStore.h
+    minecraft/mod/ModStoreTasks.cpp
+    minecraft/mod/ModStoreTasks.h
     minecraft/MinecraftLoadAndCheck.h
     minecraft/MinecraftLoadAndCheck.cpp
     minecraft/MojangVersionFormat.cpp
@@ -1047,6 +1051,8 @@ SET(LAUNCHER_SOURCES
     ui/dialogs/ExportToModListDialog.h
     ui/dialogs/IconPickerDialog.cpp
     ui/dialogs/IconPickerDialog.h
+    ui/dialogs/ModStoreDialog.cpp
+    ui/dialogs/ModStoreDialog.h
     ui/dialogs/ImportResourceDialog.cpp
     ui/dialogs/ImportResourceDialog.h
     ui/dialogs/MSALoginDialog.cpp

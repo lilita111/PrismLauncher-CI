@@ -198,6 +198,8 @@
     <addaction name="actionViewWidgetThemeFolder"/>
     <addaction name="actionViewIconThemeFolder"/>
     <addaction name="actionViewCatPackFolder"/>
+    <addaction name="separator"/>
+    <addaction name="actionModStore"/>
    </widget>
    <widget class="QMenu" name="accountsMenu">
     <property name="title">
@@ -549,6 +551,17 @@
    </property>
    <property name="toolTip">
     <string>Open the launcher's root folder in a file browser.</string>
+   </property>
+  </action>
+  <action name="actionModStore">
+   <property name="icon">
+    <iconset theme="centralmods"/>
+   </property>
+   <property name="text">
+    <string>&amp;Mod Store…</string>
+   </property>
+   <property name="toolTip">
+    <string>Deduplicate mod jars across instances: consolidate a folder of instances into the shared mod store (hardlinks), and garbage-collect unreferenced mods.</string>
    </property>
   </action>
   <action name="actionViewCentralModsFolder">
